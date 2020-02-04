@@ -1,12 +1,30 @@
 @charset "UTF-8";
 /*------------------------------------------------------------------
 [Master Stylesheet]
-Project:	Beavis
+Project:	Impulse
 ++++ Imports ++++
 ++++ Reset ++++
 ++++ Main ++++
 ++++ Mediaqueries ++++
 -------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i&display=swap');
+:root {
+    --bg: #121E2D;
+    --bg-white: #DCDDDE;
+    --font: 'Nunito', sans-serif;
+    --font-text: 'Montserrat', sans-serif;
+    --logo-orange: #FF5800;
+    --logo-green: #00A69C;
+    --logo-white: #FFFFFF;
+}
+.social-section {
+  top: 0em;
+  position: fixed;
+  padding-right: 20px;
+  right: 0;
+  z-index: 99;
+}
 /****************************/
 /** Imports **/
 /****************************/
@@ -34,8 +52,8 @@ strong {
 
 body {
   color: #fff;
-  background: #121E2D;
-  font-family: "Poppins", sans-serif;
+  background: var(--bg);
+  font-family: var(--font);
   font-size: 14px;
   font-style: normal;
   line-height: 1.5;

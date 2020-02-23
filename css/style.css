@@ -10,7 +10,7 @@ Project:	Impulse
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i&display=swap');
 :root {
-    --bg: #121E2D;
+    --bg: #001125;
     --bg-white: #DCDDDE;
     --font: 'Nunito', sans-serif;
     --font-text: 'Montserrat', sans-serif;
@@ -19,7 +19,7 @@ Project:	Impulse
     --logo-white: #FFFFFF;
 }
 .social-section {
-  top: 10em;
+  top: 5em;
   position: fixed;
   padding-right: 20px;
   right: 15px;
@@ -31,10 +31,8 @@ Project:	Impulse
 @import url(jquery.countdown.css);
 @import url(animate.css);
 @import url(component2.css);
-@import url(font-awesome.min.css);
 @import url(bootstrap.min.css);
 @import url(inputtext.css);
-@import url(photoswipe.css);
 @import url(default-skin/default-skin.css);
 /****************************/
 /** Reset **/
@@ -136,45 +134,6 @@ color: #AAA;
 
 .pad-right-zero {
   padding-left: 0; }
-
-.sec-pad-top {
-  padding-top: 100px; }
-
-.sec-pad {
-  padding-top: 100px;
-  padding-bottom: 100px; }
-
-.sec-pad-sm {
-  padding-top: 50px;
-  padding-bottom: 50px; }
-
-.sec-pad-xs {
-  padding-top: 30px;
-  padding-bottom: 30px; }
-
-.sec-pad-top {
-  padding-top: 100px; }
-
-.sec-pad-top-sm {
-  padding-top: 50px; }
-
-.sec-pad-top-xs {
-  padding-top: 30px; }
-
-.sec-pad-bottom {
-  padding-bottom: 100px; }
-
-.sec-pad-bottom-sm {
-  padding-bottom: 100px; }
-
-.sec-pad-bottom-xs {
-  padding-bottom: 30px; }
-
-.sec-pad-left {
-  padding-left: 100px; }
-
-.sec-pad-right {
-  padding-right: 100px; }
 
 .padding-top-lg-175 {
   padding-top: 175px; }
@@ -369,7 +328,7 @@ p.tagline, .address-detail a.tagline {
 
 .logo {
   display: inline-block;
-  margin: 50px 0 0 50px; }
+  margin: 50px 0 0 0; }
 
 .small-hr {
   background: #fff none repeat scroll 0 0;
@@ -377,66 +336,10 @@ p.tagline, .address-detail a.tagline {
   height: 4px;
   width: 32px; }
 
-.bg-img, .page-left .page-inner {
+.bg-img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
-
-.page-left .page-inner {
-  background: #fff; }
-  .page-left .page-inner .container-fluid {
-    padding-left: 100px;
-    padding-right: 100px; }
-  .page-left .page-inner p, .page-left .page-inner .address-detail a, .address-detail .page-left .page-inner a {
-    color: #8d8d8d; }
-  .page-left .page-inner .project-gal-wrap {
-    margin-top: 60px; }
-  .page-left .page-inner .pswp__caption__center {
-    display: none; }
-  .page-left .page-inner figure figcaption {
-    font-family: "Hind", sans-serif;
-    font-size: 12px;
-    text-transform: capitalize;
-    color: #8d8d8d;
-    padding: 20px 0 0 0; }
-  .page-left .page-inner figure a {
-    display: block;
-    overflow: hidden;
-    position: relative; }
-    .page-left .page-inner figure a .hover {
-      position: absolute;
-      left: 0;
-      top: 0;
-      opacity: 0;
-      height: 100%;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.6);
-      -moz-transition: all 0.4s ease-in-out;
-      -o-transition: all 0.4s ease-in-out;
-      -webkit-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out; }
-      .page-left .page-inner figure a .hover span {
-        display: block;
-        left: 0;
-        position: absolute;
-        right: 0;
-        color: #fff;
-        text-align: center;
-        top: calc(50% - 11px); }
-    .page-left .page-inner figure a:hover .hover {
-      opacity: 1; }
-  .page-left .page-inner .small-hr {
-    margin-top: 9px;
-    margin-bottom: 23px; }
-  .page-left .page-inner .trans-overlay-dark-about {
-    background: #000;
-    /* The Fallback */
-    background: transparent;
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 1; }
 
 .trans-overlay-dark {
   background: #000;
@@ -463,51 +366,6 @@ p.tagline, .address-detail a.tagline {
   font-family: "Hind", sans-serif;
   text-align: center;
   text-transform: capitalize; }
-
-.page-right .page-inner {
-  background: #fff; }
-  .page-right .page-inner .container-fluid {
-    padding-left: 100px;
-    padding-right: 100px; }
-  .page-right .page-inner .panel-body {
-    padding-top: 0; }
-  .page-right .page-inner .trans-overlay-dark-contact {
-    background: #121E2D;
-    /* The Fallback */
-    background: rgba(0, 48, 244, 0);
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 1; }
-  .page-right .page-inner .copyright {
-    display: none; }
-  .page-right .page-inner .form-control::-webkit-input-placeholder {
-    color: #8d8d8d;
-    font-size: 13px;
-    font-family: "Hind", sans-serif;
-    text-transform: capitalize; }
-  .page-right .page-inner .form-control:-moz-placeholder {
-    /* Firefox 18- */
-    color: #8d8d8d;
-    font-size: 13px;
-    font-family: "Hind", sans-serif;
-    text-transform: capitalize; }
-  .page-right .page-inner .form-control::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #8d8d8d;
-    font-size: 13px;
-    font-family: "Hind", sans-serif;
-    text-transform: capitalize; }
-  .page-right .page-inner .form-control:-ms-input-placeholder {
-    color: #8d8d8d;
-    font-size: 13px;
-    font-family: "Hind", sans-serif;
-    text-transform: capitalize; }
-  .page-right .page-inner .form-control input:-webkit-autofill, .page-right .page-inner .form-control textarea:-webkit-autofill, .page-right .page-inner .form-control select:-webkit-autofill {
-    background-color: transparent;
-    background-image: none;
-    color: #fff; }
 
 .detail-info {
   position: relative;
@@ -815,73 +673,6 @@ p.tagline, .address-detail a.tagline {
   .input-wrap i {
     display: none; }
 
-.page-right input {
-  height: 80px; }
-.page-right .map-sec a {
-  color: #8d8d8d;
-  font-size: 13px;
-  text-transform: capitalize;
-  text-decoration: underline;
-  transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out; }
-  .page-right .map-sec a:hover {
-    color: #000; }
-.page-right .bg-success p, .page-right .bg-success .address-detail a, .address-detail .page-right .bg-success a {
-  color: #000; }
-.page-right .bg-danger, .page-right .bg-success {
-  background-color: transparent;
-  position: absolute; }
-.page-right .form-control {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background: transparent none repeat scroll 0 0;
-  border: none;
-  box-shadow: none;
-  color: #000;
-  display: block;
-  overflow: hidden;
-  font-size: 13px;
-  font-family: "Hind", sans-serif;
-  padding-left: 0;
-  padding-bottom: 18px;
-  padding-top: 13px; }
-  .page-right .form-control:focus {
-    border-color: #fff; }
-.page-right .form-group {
-  margin-bottom: 36px; }
-.page-right .icon {
-  padding-left: 0; }
-  .page-right .icon i {
-    font-size: 15px; }
-.page-right .btn {
-  margin-top: 18px;
-  padding: 6px 55px;
-  color: #000; }
-  .page-right .btn:hover, .page-right .btn:focus, .page-right .btn:active {
-    color: #fff;
-    border-color: #000; }
-.page-right .mask {
-  background: #000 none repeat scroll 0 0; }
-.page-right .map {
-  padding-top: 75px; }
-  .page-right .map a {
-    color: #fff;
-    font-weight: 600;
-    font-size: 18px;
-    text-transform: uppercase; }
-  .page-right .map span {
-    display: inline-block; }
-  .page-right .map .go-arrow {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 0 6px 12px;
-    border-color: transparent transparent transparent #fff;
-    display: inline-block;
-    margin-left: 12px; }
-
 @-webkit-keyframes sep-anim {
   0% {
     width: 0; }
@@ -1103,16 +894,10 @@ p.tagline, .address-detail a.tagline {
 
   .side-right .contact {
     right: 6px; }
-  .side-right .sec-pad-right {
-    padding-right: 75px; }
   .side-right .notify-wrap {
     bottom: 40px;
     right: 75px; }
 
-  .page-right .page-inner .container-fluid,
-  .page-left .page-inner .container-fluid {
-    padding-left: 75px;
-    padding-right: 75px; } }
 @media only screen and (max-width: 1400px) {
   .social-icons {
     float: left;
@@ -1138,20 +923,14 @@ p.tagline, .address-detail a.tagline {
   .side-right .notify-wrap {
     bottom: 5px;
     right: 40px; }
-  .side-right .sec-pad-right {
-    padding-right: 40px; }
 
-  .page-right .page-inner .container-fluid,
-  .page-left .page-inner .container-fluid {
-    padding-left: 40px;
-    padding-right: 40px; } }
 @media only screen and (max-width: 1024px) {
   .margin-sm-30 {
     margin-top: 30px;
     margin-bottom: 30px; }
-    .side-left .content-wrap {
+    /* .side-left .content-wrap {
       height: 100%;
-  }
+  } */
   .padding-top-xs-0 {
     padding-top: 0 !important; }
 
@@ -1194,17 +973,6 @@ p.tagline, .address-detail a.tagline {
   .page {
     position: static;
     width: 100%; }
-    .page.page-left {
-      -webkit-transform: translateX(0px);
-      -ms-transform: translateX(0px);
-      transform: translateX(0px);
-      position: static; }
-    .page.page-right {
-      left: 0;
-      -webkit-transform: translateX(0px);
-      -ms-transform: translateX(0px);
-      transform: translateX(0px);
-      position: static; }
 
   .copyright-text {
     position: static !important;
@@ -1235,18 +1003,6 @@ p.tagline, .address-detail a.tagline {
     opacity: 1;
     visibility: visible; }
 
-  .open-left .page-left,
-  .open-right .page-right {
-    -webkit-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    transform: translateX(0%); }
-
-  .reset-layout .page,
-  .splitlayout.open-right .page-left,
-  .splitlayout.open-left .page-right,
-  .splitlayout.close-right .page-left,
-  .splitlayout.close-left .page-right {
-    position: static; }
 
   .notify-cmpt {
     min-height: 150px;
@@ -1284,19 +1040,6 @@ p.tagline, .address-detail a.tagline {
   .margin-btm-xs {
     margin-bottom: 30px; } }
 @media only screen and (max-width: 736px) {
-  .sec-pad {
-    padding-top: 50px;
-    padding-bottom: 50px; }
-
-  .sec-pad-top {
-    padding-top: 50px; }
-
-  .sec-pad-bottom {
-    padding-bottom: 50px; }
-
-  .page-right input {
-    height: 45px; }
-
   .logo img {
     width: 135px; }
 
@@ -1328,9 +1071,10 @@ p.tagline, .address-detail a.tagline {
         background: #121E2D;
     }  
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 380px) {
   .side-left .content-wrap {
     padding-left: 15px;
+    padding-right: 15px;
   }
   h1 {
     font-size: 30px;

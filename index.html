@@ -1,945 +1,1165 @@
-<!DOCTYPE html>
-<html lang="es">
+﻿<!DOCTYPE HTML>
+<html class="no-js" lang="pl-PL">
 <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>Impulse Technologies | Creando tu mundo digital</title>
-        <link rel="canonical" href="index.html" />
 
-        <meta name="description" content="Trabajando con su equipo para alcanzar el más alto nivel de productividad y obtener el máximo de sus sistemas." />
-        <meta name="subject" content="Creando tu mundo digital">
-        <meta name="author" content="Impulse Technologies" />
+        <meta property="og:title" content="Impulse Technologies | Creando tu mundo digital">
+        <meta property="og:url" content="index.html">
+        <meta property="og:image" content="assets/images/meta.png">
 
-    <meta name="keywords" content="informática, consultora informática, consultoría informática, desarrollo software, servicios informáticos, software, .Net, Java, software, empresa, Impulse Technologies, Venezuela, Caracas, Peru,Lima"/>
-    <meta property="og:title" content="Impulse Technologies | Creando tu Mundo Digital" />
-    <meta name="description" content="Trabajando con su equipo para alcanzar el más alto nivel de productividad y obtener el máximo de sus sistemas." />
-    <meta property="og:image" content="https://jeisoniriarte.github.io/impulsetech-jeison/img/logo.svg"></meta>
-    <meta property="og:locale" content="es_VE" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://impulsetech.com.ve/" />
-    <meta property="og:site_name" content="Impulse Technologies" />
-    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <!-- ==============================================
-        Favicons
-        =============================================== -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
-        <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
-        <!-- ==============================================
-        Stylesheet
-        =============================================== -->
-        <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/vendor/slider.min.css">
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/vendor/icons.min.css">
-        <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
-        <link rel="stylesheet" href="assets/css/vendor/animation.min.css">
+        <meta name="description" content="We are an experienced team creating great, unique and easy to set up templates for WordPress. Our domain is creativity, experience and openness to new horizons.">
+        <meta name="keywords" content="wordpress, theme, betheme, premium, multi-purpose, developer, pre-built websites, premium plugins, support">
 
-        <!-- ==============================================
-        Custom Stylesheet
-        =============================================== -->
-        <link rel="stylesheet" href="assets/css/default.css">
+        <link rel="icon" type="image/icon" href="assets/images/favicon.ico">
 
-        <!-- ==============================================
-        Theme Setup
-        =============================================== -->
-        <style>
-            :root {
-                --header-bg-color: #040402;
-                --nav-item-color: #f5f5f5;
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-reboot.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/slick-theme.css">
+        <link rel="stylesheet" href="assets/css/jquery.fullpage.css" />
+        <link rel="stylesheet" href="assets/css/muffin.css" />
 
-                --section-1-bg-color: #eeeeee;
-                --section-2-bg-color: #040402;
-                --section-3-bg-color: #f5f5f5;
-                --section-4-bg-color: #eeeeee;
-                --section-5-bg-color: #111111;
-                --section-6-bg-color: #eeeeee;
-                --section-7-bg-color: #191919;
-                --section-8-bg-color: #e5e5e5;
-                --section-9-bg-color: #f5f5f5;
-                --section-10-bg-color: #eeeeee;
-            
-                --footer-1-bg-color: #111111;
-                --footer-2-bg-color: #040402;
-            }
-            h1 {
-                font-size: 5rem;
-                max-width: 1000px;
-                margin: auto;
-            }
-
-            h4 {
-                font-size: 1.4rem;
-                font-weight: 500;
-            }
-
-            .thin {
-                font-weight: 400;
-            }
-
-            .btn.bigger {
-                font-family: 'Gilroy', sans-serif;
-                font-size: 1.2rem;
-            }
-        </style>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/vivus.js"></script>
+        <script src="assets/js/jquery.parallax-scroll.js"></script>
+        <script src="assets/js/pathformer.js"></script>
+        <script src="assets/js/tether.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/modernizr.min.js"></script>
+        <script src="assets/js/jquery.fullpage.js"></script>
+        <script src="assets/js/muffin.js"></script>
     </head>
 
     <body>
-        <!-- Header -->
-        <header>
-            <!-- Navbar -->
-            <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
-                <div class="container header">
-
-                    <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="index.html">
-                        Impulse<i>.</i>
-                        <!-- 
-                            Custom Logo
-                            <img src="assets/images/logo.svg" alt="Leverage">
-                        -->
-                    </a>
-
-                    <!-- Navbar Itens -->
-                    <ul class="navbar-nav items ml-auto">
-                        <li class="nav-item">
-                            <a href="#nosotros" class="nav-link smooth-anchor">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#servicios" class="nav-link smooth-anchor">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#team" class="nav-link smooth-anchor">TeamImpulse</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#proyectos" class="nav-link smooth-anchor">Proyectos</a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Icons -->
-                    <ul class="navbar-nav icons ml-auto m-xl-0">
-                        <li class="nav-item social">
-                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                        </li>
-                        <li class="nav-item social">
-                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Toggle -->
-                    <ul class="navbar-nav toggle">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
-                                <i class="icon-menu m-0"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Action -->
-                    <ul class="navbar-nav action">
-                        <li class="nav-item ml-3">
-                            <a href="#" class="btn ml-lg-auto primary-button" data-toggle="modal" data-target="#search"><i class="icon-rocket"></i>CONTACTO</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-        </header>
-
-        <!-- Banner -->
-        <section id="slider" class="p-0 odd featured">
-            <div class="swiper-container no-slider slider-h-100">
-                <div class="swiper-wrapper">
-
-                    <!-- Item 1 -->
-                    <div class="swiper-slide slide-center">
-
-                        <img src="assets/images/bg-5.jpg" class="full-image mask">
-
-                        <div class="slide-content row text-center">
-                            <div class="col-12 mx-auto inner">
-                                <div class="center align-self-center text-center">
-                                    <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Welcome <span class="thin">to your</span> next level <span class="thin">of website</span> creation.</h1>
-                                    <!-- <p data-aos="zoom-out-up" data-aos-delay="800" class="description m-auto d-none d-sm-block">Enjoy the offer and have in your hand 60+ HTML Templates, including Home and Inner Pages, ideal for Agencies, Portfolio and Corporate Companies.</p> -->
-                                    <a href="#nosotros" data-aos="zoom-out-up" data-aos-delay="1200" class="smooth-anchor ml-auto mr-auto mt-5 btn bigger primary-button">SEE ALL DEMOS</a>
-                                </div>
-                            </div>
-                        </div>
+<!-- preloader -->
+        <!-- <div class="preloaderWindow">
+            <div class="preloaderContainer">
+                <div class="preloaderMiddle">
+                    <div class="logo">
+                        <img src="assets/images/logo4.svg" alt="">
+                        <div class="patternImg patternImg1"><img src="assets/images/pattern/3.svg" alt=""></div>
+                        <div class="patternImg patternImg2"><img src="assets/images/pattern/3.svg" alt=""></div>
+                        <div class="patternImg patternImg3"><img src="assets/images/pattern/2.svg" alt=""></div>
+                        <div class="patternImg patternImg4"><img src="assets/images/pattern/8.svg" alt=""></div>
+                        <div class="patternImg patternImg5"><img src="assets/images/pattern/9.svg" alt=""></div>
+                        <div class="patternImg patternImg6"><img src="assets/images/pattern/5.svg" alt=""></div>
                     </div>
-
+                    <div class="line">
+                        <div class="current"></div>
+                    </div>
+                    <div class="text">Loading, please wait...</div>
                 </div>
             </div>
-        </section>
-
-        <!-- About [image] -->
-        <section id="nosotros" class="highlights left">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 align-self-center text-center text-md-left">
-                        <div class="row intro">
-                            <div class="col-12 p-0">
-                                <h2 class="featured alt">Conócenos</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
-                            </div>
-                        </div>
-                        <div class="row items">
-                            <div class="col-12 p-0">
-                                <div data-aos="fade-right" data-aos-delay="100" class="row item">
-                                    <div class="col-12 col-md-2 align-self-center">
-                                        <i class="icon icon-grid"></i>
-                                    </div>
-                                    <div class="col-12 col-md-9 align-self-center">
-                                        <h4>Design</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>  
-                                </div>
-                                <div data-aos="fade-right" data-aos-delay="200" class="row item">
-                                    <div class="col-12 col-md-2 align-self-center">
-                                        <i class="icon icon-fire"></i>
-                                    </div>
-                                    <div class="col-12 col-md-9 align-self-center">
-                                        <h4>Branding</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery col-12 col-md-6">
-                        <a href="assets/images/about-10.jpg">
-                            <img src="assets/images/about-10.jpg" class="fit-image">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About [video] -->
-        <section id="video" class="highlights right">
-            <div class="container">
-                <div class="row">
-                    <div class="gallery col-12 col-md-6">
-                        <a data-poster="assets/images/about-11.jpg" href="https://www.youtube.com/watch?v=ki-H1aXrM9U">
-                            <i class="play-video icon-control-play"></i>
-                            <div class="mask-radius"></div>
-                            <img src="assets/images/about-11.jpg" class="fit-image">
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
-                        <div class="row intro">
-                            <div class="col-12 p-0">
-                                <h2 class="featured alt">Ver el vídeo</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
-                            </div>
-                        </div>
-                        <div class="row items">
-                            <div class="col-12 p-0">
-                                <div data-aos="fade-left" data-aos-delay="100" class="row item">
-                                    <div class="col-12 col-md-2 align-self-center">
-                                        <i class="icon icon-trophy"></i>
-                                    </div>
-                                    <div class="col-12 col-md-9 align-self-center">
-                                        <h4>Technology</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>  
-                                </div>
-                                <div data-aos="fade-left" data-aos-delay="200" class="row item">
-                                    <div class="col-12 col-md-2 align-self-center">
-                                        <i class="icon icon-diamond"></i>
-                                    </div>
-                                    <div class="col-12 col-md-9 align-self-center">
-                                        <h4>Innovation</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services -->
-        <section id="servicios" class="odd offers featured">
-            <div class="container">
-                <div class="row intro">
-                    <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                        <h2 class="featured">Mejores Servicios</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="col-12 col-md-3 align-self-end">
-                        <a href="services.html" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i class="icon-grid"></i>VER TODO</i></a>
-                    </div>
-                </div>
-                <div class="row justify-content-center text-center items">
-                    <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card featured ">
-                            <i class="icon icon-layers"></i>
-                            <h4>Digital Marketing</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                            <a href="service-single.html"><i class="btn-icon icon-arrow-right-circle"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card">
-                            <i class="icon icon-rocket"></i>
-                            <h4>Trade Shows</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                            <a href="service-single.html"><i class="btn-icon icon-arrow-right-circle"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card">
-                            <i class="icon icon-briefcase"></i>
-                            <h4>Branding</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                            <a href="service-single.html"><i class="btn-icon icon-arrow-right-circle"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card">
-                            <i class="icon icon-plane"></i>
-                            <h4>Content Creation</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                            <a href="service-single.html"><i class="btn-icon icon-arrow-right-circle"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card">
-                            <i class="icon icon-chart"></i>
-                            <h4>Graphic Design</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                            <a href="service-single.html"><i class="btn-icon icon-arrow-right-circle"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 item">
-                        <div class="card featured ">
-                            <i class="icon icon-drawer"></i>
-                            <h4>Media Buying</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                            <a href="service-single.html"><i class="btn-icon icon-arrow-right-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Team -->
-        <section id="team" class="carousel">
-            <div class="container">
-                <div class="row text-center intro">
-                    <div class="col-12">
-                        <h2>Team Impulse</h2>
-                        <p class="text-max-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent diam lacus, dapibus sed imperdiet.</p>
-                    </div>
-                </div>
-                <div class="swiper-container slider-mid items">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
-                                <div class="col-12">
-                                    <img src="assets/images/team-1.jpg" alt="Adams Baker" class="person">
-                                    <h4>Lorem ipsum</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
-                                <div class="col-12">
-                                    <img src="assets/images/team-2.jpg" alt="Mary Evans" class="person">
-                                    <h4>Lorem ipsum</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
-                                <div class="col-12">
-                                    <img src="assets/images/team-3.jpg" alt="Sarah Lopez" class="person">
-                                    <h4>Lorem ipsum</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
-                                <div class="col-12">
-                                    <img src="assets/images/team-4.jpg" alt="Joseph Hills" class="person">
-                                    <h4>Lorem ipsum</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center text-center item">
-                            <div class="row card">
-                                <div class="col-12">
-                                    <img src="assets/images/team-5.jpg" alt="Karen Usman" class="person">
-                                    <h4>Lorem ipsum</h4>
-                                    <p>Sed mauris nulla tempor eu est vel curabitur.</p>
-                                    <ul class="navbar-nav social share-list ml-auto">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-instagram"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Partners -->
-        <section id="partner" class="odd logos">
-            <div class="container">
-                <div class="swiper-container slider-min">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-1.png" class="fit-image w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-2.png" class="fit-image w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-3.png" class="fit-image w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-4.png" class="fit-image w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-5.png" class="fit-image w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-6.png" class="fit-image w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-7.png" class="fit-image w-85">
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <img src="assets/images/logo-8.png" class="fit-image w-85">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Blog -->
-        <section id="proyectos" class="carousel showcase">
-            <div class="container">
-                <div class="row intro">
-                    <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                        <h2 class="featured">Proyectos</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="col-12 col-md-3 align-self-end">
-                        <a href="blog-listing.html" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i class="icon-grid"></i>VER TODO</i></a>
-                    </div>
-                </div>
-                <div class="swiper-container slider-mid items">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-1-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post.html">
-                                            <h4 class="m-0">Creando un mundo digital con Nucleus.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post.html" class="d-lg-flex align-items-center"><i class="icon-user"></i>Lorem ipsum</a>
-                                        <a href="blog-single-post.html" class="d-lg-flex align-items-center"><i class="icon-clock"></i>Lorem ipsum</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-2-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post.html">
-                                            <h4 class="m-0">Creando un mundo digital con Nucleus.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post.html" class="d-lg-flex align-items-center"><i class="icon-user"></i>Lorem ipsum</a>
-                                        <a href="blog-single-post.html" class="d-lg-flex align-items-center"><i class="icon-clock"></i>Lorem ipsum</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-3-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post.html">
-                                            <h4 class="m-0">Creando un mundo digital con Nucleus.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post.html" class="d-lg-flex align-items-center"><i class="icon-user"></i>Lorem ipsum</a>
-                                        <a href="blog-single-post.html" class="d-lg-flex align-items-center"><i class="icon-clock"></i>Lorem ipsum</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-4-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post.html">
-                                            <h4 class="m-0">Creando un mundo digital con Nucleus.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post.html" class="d-lg-flex align-items-center"><i class="icon-user"></i>Lorem ipsum</a>
-                                        <a href="blog-single-post.html" class="d-lg-flex align-items-center"><i class="icon-clock"></i>Lorem ipsum</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-5-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post.html">
-                                            <h4 class="m-0">Creando un mundo digital con Nucleus.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post.html" class="d-lg-flex align-items-center"><i class="icon-user"></i>Lorem ipsum</a>
-                                        <a href="blog-single-post.html" class="d-lg-flex align-items-center"><i class="icon-clock"></i>Lorem ipsum</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide slide-center item">
-                            <div class="row card p-0 text-center">
-                                <div class="image-over">
-                                    <img src="assets/images/news-6-h.jpg" alt="Lorem ipsum">
-                                </div>
-                                <div class="card-caption col-12 p-0">
-                                    <div class="card-body">
-                                        <a href="blog-single-post.html">
-                                            <h4 class="m-0">Creando un mundo digital con Nucleus.</h4>
-                                        </a>
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="blog-single-post.html" class="d-lg-flex align-items-center"><i class="icon-user"></i>Lorem ipsum</a>
-                                        <a href="blog-single-post.html" class="d-lg-flex align-items-center"><i class="icon-clock"></i>Lorem ipsum</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Subscribe -->
-        <section id="subscribe" class="subscription">
-            <div class="container smaller">
-                <div class="row text-center intro">
-                    <div class="col-12">
-                        <h2>Newsletter</h2>
-                        <p class="text-max-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus, id pellentesque mauris tincidunt.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 p-0">
-                        <form action="https://leverage.codings.dev/php/subscribe.php" id="leverage-subscribe" class="row m-auto items">
-                            <div class="col-12 col-lg-5 m-lg-0 input-group align-self-center item">
-                                <input type="text" class="form-control" placeholder="Name" required>
-                            </div>
-                            <div class="col-12 col-lg-5 m-lg-0 input-group align-self-center item">
-                                <input type="email" class="form-control" placeholder="Email" required>
-                            </div>
-                            <div class="col-12 col-lg-2 m-lg-0 input-group align-self-center item">
-                                <button data-success="SENT" class="btn primary-button w-100"><i class="icon-note"></i>SUBSCRIBE</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer>
-
-            <!-- Footer [links] -->
-            <section id="footer" class="odd footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-3 p-3 text-center text-lg-left">
-                            <div class="brand">
-                                <a href="index.html" class="logo">
-                                    Impulse.                                 
-                                    <!-- 
-                                        Custom Logo
-                                        <img src="assets/images/logo.svg" alt="Leverage">
-                                    -->
-                                </a>
-                            </div>
-                            <p>Have a real factory of creative templates in your hands.</p>
-                            <ul class="navbar-nav social share-list mt-0 ml-auto">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link"><i class="icon-social-instagram ml-0"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link"><i class="icon-social-facebook"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link"><i class="icon-social-twitter"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-lg-3 p-3 text-center">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">About Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Pricing</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Image Gallery</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-lg-3 p-3 text-center">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Blog News</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Subscribe</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Our Team</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Testimonials</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-lg-3 p-3 text-center">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="icon-phone mr-2"></i>
-                                        +1 123 98765 4321
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="icon-envelope mr-2"></i>
-                                        hello@lorem
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="icon-location-pin mr-2"></i>
-                                        Office Street, 123
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="mt-4 ml-auto mr-auto btn primary-button"><i class="icon-speech"></i>SEND A MESSAGE</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Copyright -->
-            <section id="copyright" class="p-3 odd copyright">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-6 p-3 text-center text-lg-left">
-                            <p>Enjoy the low price. We are tracking any intention of piracy.</p>
-                            <!--
-                                Suggestion: Replace the text above with a description of your website.
-                             -->
-                        </div>
-                        <div class="col-12 col-md-6 p-3 text-center text-lg-right">
-                            <p>© 2020 Leverage is Proudly Powered by <a href="#" target="_blank">Lorem</a>.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </footer>
-
-        <!-- Modal [search] -->
-        <div id="search" class="p-0 modal fade" role="dialog" aria-labelledby="search" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-slideout" role="document">
-                <div class="modal-content full">
-                    <div class="modal-header" data-dismiss="modal">
-                        Contacto <i class="icon-close"></i>
-                    </div>
-                    <div class="modal-body">
-                        <!-- Contact -->
-        <section id="contact" class="form">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 align-self-start text-center text-md-left">
-
-                        <!-- Success Message -->
-                        <div class="row success message">
-                            <div class="col-12 p-0">
-                                <i class="icon bigger icon-check"></i>
-                                <h3>Success</h3>
-                                <p>Your message has been sent successfully.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit quisque sed leo vel dolor dictum hendrerit.</p>
-                                <a href="#" class="btn mx-auto primary-button"><i class="icon-refresh"></i>REFRESH</a>
-                            </div>
-                        </div>
-
-                        <!-- Steps Message -->
-                        <div class="row intro">
-                            <div class="col-12 p-0">
-
-                                <!-- Step Title -->
-                                <div class="step-title">
-                                    <h2 class="featured alt">Hablemos</h2>
-                                    <p>With a multi-step form, visitors feel more willing to submit a request. Remember that the <b>main objective</b> is to capture leads.</p>
-                                </div>
-
-                                <!-- Step Title -->
-                                <div class="step-title">
-                                    <h2 class="featured alt">Forms Work</h2>
-                                    <p>This template has an indispensable differential on a web page. <b>The forms are functional</b> with field validation.</p>
-                                </div>
-
-                                <!-- Step Title -->
-                                <div class="step-title">
-                                    <h2 class="featured alt">Limited Offer</h2>
-                                    <p>With so many resources it is difficult to believe that it is sold for such a low price. <b>Run!</b> It is for a limited time.</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!-- Form -->
-                        <div class="row text-center">
-                            <div class="col-12 p-0">
-                                <form action="https://leverage.codings.dev/php/form.php" id="leverage-form" class="multi-step-form">
-                                    <ul class="progressbar">
-                                        <li>Datos Personales</li>
-                                        <li>Presupuesto de la empresa</li>
-                                        <li>Detalle del servicio</li>
-                                    </ul>
-
-                                    <!-- Group 1 -->
-                                    <fieldset class="step-group">
-                                        <div class="row">
-                                            <div class="col-12 input-group p-0">
-                                                <input type="text" name="name" minlength="3" class="form-control" placeholder="Nombre" required>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12 input-group p-0">
-                                                <input type="email" name="email" minlength="3" class="form-control" placeholder="Correo Electrónico" required>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12 input-group p-0">
-                                                <input type="text" name="phone" minlength="3" class="form-control" placeholder="Teléfono" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 input-group p-0">
-                                            <a class="step-next btn primary-button">NEXT<i class="icon-arrow-right-circle left"></i></a>
-                                        </div>
-                                    </fieldset>
-
-                                    <!-- Group 2 -->
-                                    <fieldset class="step-group">
-                                        <div class="row">
-                                            <div class="col-12 input-group p-0">
-                                                <input type="text" name="company" minlength="3" class="form-control" placeholder="Company" required>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12 input-group p-0">
-                                                <input type="text" name="manager" minlength="3" class="form-control" placeholder="Manager" required>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12 input-group p-0">
-                                                <i class="icon-arrow-down"></i>
-                                                <select name="budget" minlength="1" class="form-control" required>
-                                                    <option value="0" selected disabled>What's your budget range?</option>
-                                                    <option>Less than $2.000</option>
-                                                    <option>$2.000 — $5.000</option>
-                                                    <option>$5.000 — $10.000</option>
-                                                    <option>$10,000+</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 input-group p-0 d-flex justify-content-center justify-content-md-start">
-                                            <a class="step-prev btn primary-button mr-4"><i class="icon-arrow-left-circle"></i>PREV</a>
-                                            <a class="step-next btn primary-button">NEXT<i class="icon-arrow-right-circle left"></i></a>
-                                        </div>
-                                    </fieldset>
-
-                                    <!-- Group 3 -->
-                                    <fieldset class="step-group">
-                                        <div class="row">
-                                            <div class="col-12 input-group p-0">
-                                                <textarea name="message" minlength="3" class="form-control" placeholder="Message" required></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 input-group p-0 d-flex justify-content-center justify-content-md-start">
-                                            <a class="step-prev btn primary-button mr-4"><i class="icon-arrow-left-circle"></i>PREV</a>
-                                            <a class="step-next btn primary-button">NEXT<i class="icon-arrow-right-circle left"></i></a>
-                                        </div>
-                                    </fieldset>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-                    </div>
-                </div>
-            </div>
+        </div> -->
+<!-- menu -->
+        <div class="menuMobile">
+            <div class="logo"><a><img src="assets/images/logo3.svg" alt="Impulse Technologies"></a></div>
         </div>
 
-        <!-- Modal [responsive menu] -->
-        <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-slideout" role="document">
-                <div class="modal-content full">
-                    <div class="modal-header" data-dismiss="modal">
-                        Menu Options <i class="icon-close"></i>
-                    </div>
-                    <div class="menu modal-body">
-                        <div class="row w-100">
-                            <div class="items p-0 col-12 text-center">
-                                <!-- Append [navbar] -->
-                            </div>
-                            <div class="contacts p-0 col-12 text-center">
-                                <!-- Append [navbar] -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Scroll [to top] -->
-        <div id="scroll-to-top" class="scroll-to-top">
-            <a href="#slider" class="smooth-anchor">
-                <i class="icon-arrow-up"></i>
+        <div class="hamburger">
+            <a>
+                <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+                    <line class="st0" x1="22.1" y1="12" x2="2" y2="12"/>
+                    <line class="st0" x1="22.1" y1="3.8" x2="2" y2="3.8"/>
+                    <line class="st0" x1="2" y1="20.1" x2="22.1" y2="20.1"/>
+               </svg>
             </a>
         </div>
-        <!-- ==============================================
-        Scripts
-        =============================================== -->
-        <script src="assets/js/vendor/jquery.min.js"></script>
-        <script src="assets/js/vendor/ponyfill.min.js"></script>
-        <script src="assets/js/vendor/popper.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/vendor/slider.min.js"></script>
-        <script src="assets/js/vendor/gallery.min.js"></script>
-        <script src="assets/js/vendor/animation.min.js"></script>
-        <script src="assets/js/main.js"></script>
+
+        <div class="menuMobilePopup">
+            <div class="menuMobilePopupContainer">
+                <div class="menuMobilePopupMiddle">
+                    <div class="mobileHeader">
+                        <div class="logo"><a><img src="assets/images/logo3.svg" alt="Muffin Group"></a></div>
+                        <div class="menuMobilePopupClose">
+                            <a>
+                                <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+                                    <line stroke-miterlimit="10" x1="3.826" y1="4.014" x2="20.174" y2="20.361"/>
+                                    <line stroke-miterlimit="10" x1="20.174" y1="4.014" x2="3.823" y2="20.365"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menuMobilePopupWindow">
+                        <div class="menuMobilePopupContent">
+                            <ul>
+                                <li class="button buttonHome"><a class="menu-links" menuanchor="homePage">Inicio</a></li>
+                                <li class="button buttonWhy"><a class="menu-links" menuanchor="whyPage" href="#whyPage">Why us?</a></li>
+                                <li class="button buttonClients"><a class="menu-links" menuanchor="clientsPage" href="#clientsPage">Our clients</a></li>
+                                <li class="button buttonWebsites"><a class="menu-links" menuanchor="websitesPage" href="#websitesPage">500+ pre-built websites</a></li>
+                                <li class="button buttonPremium"><a class="menu-links" menuanchor="premiumPage" href="#premiumPage">Premium plugins</a></li>
+                                <li class="button buttonWho"><a class="menu-links" menuanchor="teamimpulse" href="#teamimpulse">TeamImpulse</a></li>
+                                <li class="button buttonContact"><a class="menu-links" menuanchor="whoPage" href="#whoPage">Contacto</a></li>
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="logo">
+                <h1><a><img src="assets/images/logo.svg" alt="Muffin Group"></a></h1>
+            </div>
+            <div id="menu">
+                <div class="menuMiddle">
+                    <div class="menuContainer">
+                        <ul>
+                            <li class="button buttonHome"><a class="menu-links" menuanchor="homePage"><span class="circle"></span><span class="line"></span>Inicio</a></li>
+                            <li class="button buttonWhy"><a class="menu-links" menuanchor="whyPage" href="#whyPage"><span class="circle"></span><span class="line"></span>Why us?</a></li>
+                            <li class="button buttonClients"><a class="menu-links" menuanchor="clientsPage" href="#clientsPage"><span class="circle"></span><span class="line"></span>Our clients</a></li>
+                            <li class="button buttonWebsites"><a class="menu-links" menuanchor="websitesPage" href="#websitesPage"><span class="circle"></span><span class="line"></span>500+ pre-built websites</a></li>
+                            <li class="button buttonPremium"><a class="menu-links" menuanchor="premiumPage" href="#premiumPage"><span class="circle"></span><span class="line"></span>Premium plugins</a></li>
+                            <li class="button buttonWho"><a class="menu-links" menuanchor="whoPage" href="#whoPage"><span class="circle"></span><span class="line"></span>TeamImpulse</a></li>
+                            <li class="button buttonContact"><a class="menu-links" menuanchor="contactPage" href="#contactPage"><span class="circle"></span><span class="line"></span>Contacto</a></li>
+                        </ul>
+                        <div class="border"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scrollDown">
+                <a>
+                    <span class="img"><img src="assets/images/scrollDown.svg" alt=""></span>
+                    <span>Hacia abajo</span>
+                </a>
+            </div>
+            <div class="scrollUp">
+                <a>
+                    <span class="img"><img src="assets/images/scrollDown.svg" alt=""></span>
+                    <span>Hacia arriba</span>
+                </a>
+            </div>
+        </div>
+<!-- cover -->
+        <div class="muffin">
+            <div id="fullpage">
+                <div class="section fp-auto-height">
+                    <div class="sliderSection">
+                        <div class="wrapper">
+                            <div class="muffinSlider" data-parallax='{"y": -40}'>
+                                <div class="muffinSlide">
+                                    <div class="navigation">
+                                        <div class="column active">
+                                            <div class="number"><div>1</div></div>
+                                            <div class="name">Be's author</div>
+                                            <div class="preloader"><div><span></span></div></div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="number goToNext"><div>2</div></div>
+                                            <div class="name goToNext">500+ pre-built websites</div>
+                                            <div class="preloader"><div><span></span></div></div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="number goTo3Slide"><div>3</div></div>
+                                            <div class="name goTo3Slide">Muffin Builder</div>
+                                        </div>
+                                    </div>
+                                    <div class="headline" data-parallax='{"y": -40}'>
+                                        <h1>The author of Betheme, <br>the biggest wordpress theme ever.</h1>
+                                        <div class="button">
+                                            <a href="#" target="_blank">
+                                                Read more <span><img src="assets/images/arrow.svg" alt=""></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="slideImage"><img src="assets/images/slides/1.png" alt=""></div>
+                                </div>
+                                <div class="muffinSlide">
+                                    <div class="navigation">
+                                        <div class="column">
+                                            <div class="number goToPrev"><div>1</div></div>
+                                            <div class="name goToPrev">Be's author</div>
+                                            <div class="preloader"><div><span></span></div></div>
+                                        </div>
+                                        <div class="column active">
+                                            <div class="number"><div>2</div></div>
+                                            <div class="name">500+ pre-built websites</div>
+                                            <div class="preloader"><div><span></span></div></div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="number goToNext"><div>3</div></div>
+                                            <div class="name goToNext">Muffin Builder</div>
+                                        </div>
+                                    </div>
+                                    <div class="headline" data-parallax='{"y": -40}'>
+                                        <h1>500+ pre-built websites <br>available for all!</h1>
+                                        <div class="button">
+                                            <a href="#" target="_blank">
+                                                Read more <span><img src="assets/images/arrow.svg" alt=""></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="slideImage"><img src="assets/images/slides/2.png" alt=""></div>
+                                </div>
+                                
+                                <div class="muffinSlide">
+                                    <div class="navigation">
+                                        <div class="column">
+                                            <div class="number goToPrev"><div>2</div></div>
+                                            <div class="name goToPrev">500+ pre-built websites</div>
+                                            <div class="preloader"><div><span></span></div></div>
+                                        </div>
+                                        <div class="column active">
+                                            <div class="number"><div>3</div></div>
+                                            <div class="name">Muffin Builder</div>
+                                            <div class="preloader"><div><span></span></div></div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="number goToNext"><div>4</div></div>
+                                            <div class="name goToNext">Outstanding support</div>
+                                        </div>
+                                    </div>
+                                    <div class="headline" data-parallax='{"y": -40}'>
+                                        <h1>Building a website from scratch is easy. <br>No coding skills required!</h1>
+                                        <div class="button">
+                                            <a href="#" target="_blank">
+                                                Read more <span><img src="assets/images/arrow.svg" alt=""></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="slideImage"><img src="assets/images/slides/4.png" alt=""></div>
+                                </div>
+                                <div class="muffinSlide">
+                                    <div class="navigation">
+                                        <div class="column">
+                                            <div class="number goToPrev"><div>3</div></div>
+                                            <div class="name goToPrev">Muffin Builder</div>
+                                            <div class="preloader"><div><span></span></div></div>
+                                        </div>
+                                        <div class="column active">
+                                            <div class="number"><div>4</div></div>
+                                            <div class="name">Outstanding support</div>
+                                            <div class="preloader"><div><span></span></div></div>
+                                        </div>
+                                        <div class="column goTo1Slide">
+                                            <div class="number goToNext"><div>1</div></div>
+                                            <div class="name goToNext">Be's author</div>
+                                        </div>
+                                    </div>
+                                    <div class="headline" data-parallax='{"y": -40}'>
+                                        <h1>We always try to understand you <br>and help in any situation.</h1>
+                                        <div class="button">
+                                            <a href="#" target="_blank">
+                                                Read more <span><img src="assets/images/arrow.svg" alt=""></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="slideImage"><img src="assets/images/slides/5.svg" alt="" width="800"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- about -->
+                <div class="section fp-auto-height">
+                    <div class="whySection" data-parallax='{"y": -40}'>
+                        <div class="leftSvg">
+                            <svg id="bigCirclesSvg" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 780 1560" enable-background="new 0 0 780 1560" xml:space="preserve">
+                                <path class="lineBig" stroke-dasharray="1000 1000" stroke-dashoffset="1000" fill="none" stroke="#3A547A" stroke-width="2" d="M0,6c427.5,0,774,341.5,774,769S427.5,1554,0,1554"/>
+                                <path class="lineMedium" fill="none" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" d="M0,199.5c320.6,0,580.5,254.9,580.5,575.5S320.6,1360.5,0,1360.5"/>
+                            </svg>
+                        </div>
+                        <div class="rightPhoto"></div>
+                        <div class="wrapper">
+                            <div class="whyTable">
+                                <div class="whyColumnLeft">
+                                    <h2>expertos en el campo <br> ¿Qué nos hace<br>especiales?</h2>
+                                </div>
+                                <div class="whyColumnCenter">
+                                    <div class="icons">
+                                        <div class="iconRow icon1">
+                                            <div class="circle">
+                                                <svg version="1.1" id="whyCircle1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                    viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                                                    <circle class="circle1" fill="#192538" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" cx="50" cy="50" r="48"/>
+                                                </svg>
+                                                <img src="assets/images/whyIcon1.svg" alt="">
+                                            </div>
+                                            <div class="title">Outstanding <br>support</div>
+                                        </div>
+                                        <div class="iconRow icon2 middle">
+                                            <div class="circle">
+                                                <svg version="1.1" id="whyCircle2" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                    viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                                                    <circle class="circle2" fill="#192538" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" cx="50" cy="50" r="48"/>
+                                                </svg>
+                                                <img src="assets/images/whyIcon2.svg" alt="">
+                                            </div>
+                                            <div class="title">Updates <br>every week</div>
+                                        </div>
+                                        <div class="iconRow icon3 middle">
+                                            <div class="circle">
+                                                <svg version="1.1" id="whyCircle3" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                    viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                                                    <circle class="circle3" fill="#192538" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" cx="50" cy="50" r="48"/>
+                                                </svg>
+                                                <img src="assets/images/whyIcon3.svg" alt="">
+                                            </div>
+                                            <div class="title">500+ pre-built <br>websites</div>
+                                        </div>
+                                        <div class="iconRow icon4">
+                                            <div class="circle">
+                                                <svg version="1.1" id="whyCircle4" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                    viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                                                    <circle class="circle4" fill="#192538" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" cx="50" cy="50" r="48"/>
+                                                </svg>
+                                                <img src="assets/images/whyIcon4.svg" alt="">
+                                            </div>
+                                            <div class="title">Intuitive <br>website installer</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- testimonios -->
+                <div class="section fp-auto-height">
+                    <div class="clientsSection">
+                        <div class="wrapper">
+                            <div class="headline" data-parallax='{"y": -40}'>
+                                <div class="headlineTop">Over</div>
+                                <div class="headlineMiddle">
+                                    <h2>200 000</h2>
+                                    <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 1033 225" enable-background="new 0 0 1033 225" xml:space="preserve">
+                                        <g>
+                                            <path class="number2" fill="none" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" d="M11,219.9c-7.3,0-11-3.2-11-9.5v-7c0-5.1,2.3-10.1,7-15.1l43.8-46.1c13.2-14,25.2-26.4,36.2-37.3
+                                          		c10.9-10.9,16.4-21.9,16.4-33s-2.8-19.3-8.3-24.5c-5.5-5.2-12.5-7.8-21-7.8c-13.5,0-22.9,3.1-28.1,9.4c-5.3,6.3-9.1,12.9-11.4,20.1
+                                          		c-2.2,6.9-6.3,9.4-12.3,7.5l-14.8-5c-4.8-1.7-6.2-6.2-4.1-13.8c3.8-14,11.6-26,23.3-36c11.7-10,29.1-15,52.1-15
+                                          		c24,0,41.5,6.2,52.3,18.5c10.8,12.4,16.3,25.8,16.3,40.2c0,19-7.9,35.7-23.7,50c-15.8,14.3-30.2,28.3-43.1,41.9l-25.2,26.3v0.6
+                                          		c5.9-0.4,10.8-0.6,14.7-0.6h68.6c7.3,0,11,3.2,11,9.5v17.3c0,6.3-3.7,9.5-11,9.5H11z"/>
+                                            <path class="number0" fill="none" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" d="M175.8,115.7c0-39.6,6.2-67.6,18.5-84.2c12.3-16.6,31.2-24.9,56.5-24.9c25.4,0,44.2,8.3,56.5,24.9
+                                          		c12.3,16.6,18.5,44.7,18.5,84.2s-6.2,67.6-18.5,84.2c-12.3,16.6-31.2,24.9-56.5,24.9c-25.4,0-44.2-8.3-56.5-24.9
+                                          		C182,183.3,175.8,155.3,175.8,115.7z M219.2,115.7c0,18.1,1.5,35.4,4.5,52.1c3,16.7,12,25,27.2,25c15.1,0,24.2-8.3,27.2-25
+                                          		c3-16.7,4.5-34.1,4.5-52.1c0-18.1-1.5-35.4-4.5-52.1c-3-16.7-12-25-27.2-25c-15.1,0-24.2,8.3-27.2,25
+                                          		C220.7,80.3,219.2,97.7,219.2,115.7z"/>
+                                            <path class="number0" fill="none" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" d="M351.6,115.7c0-39.6,6.2-67.6,18.5-84.2c12.3-16.6,31.2-24.9,56.5-24.9c25.4,0,44.2,8.3,56.5,24.9
+                                          		c12.3,16.6,18.5,44.7,18.5,84.2s-6.2,67.6-18.5,84.2c-12.3,16.6-31.2,24.9-56.5,24.9c-25.4,0-44.2-8.3-56.5-24.9
+                                          		C357.7,183.3,351.6,155.3,351.6,115.7z M395,115.7c0,18.1,1.5,35.4,4.5,52.1c3,16.7,12,25,27.2,25c15.1,0,24.2-8.3,27.2-25
+                                          		c3-16.7,4.5-34.1,4.5-52.1c0-18.1-1.5-35.4-4.5-52.1c-3-16.7-12-25-27.2-25c-15.1,0-24.2,8.3-27.2,25
+                                          		C396.4,80.3,395,97.7,395,115.7z"/>
+                                            <path class="number0" fill="none" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" d="M527.4,115.7c0-39.6,6.2-67.6,18.5-84.2C558.1,14.9,577,6.6,602.4,6.6c25.4,0,44.2,8.3,56.5,24.9
+                                          		c12.3,16.6,18.5,44.7,18.5,84.2s-6.2,67.6-18.5,84.2c-12.3,16.6-31.2,24.9-56.5,24.9c-25.4,0-44.2-8.3-56.5-24.9
+                                          		C533.5,183.3,527.4,155.3,527.4,115.7z M570.7,115.7c0,18.1,1.5,35.4,4.5,52.1c3,16.7,12,25,27.2,25c15.1,0,24.2-8.3,27.2-25
+                                          		c3-16.7,4.5-34.1,4.5-52.1c0-18.1-1.5-35.4-4.5-52.1c-3-16.7-12-25-27.2-25c-15.1,0-24.2,8.3-27.2,25
+                                          		C572.2,80.3,570.7,97.7,570.7,115.7z"/>
+                                            <path class="number0" fill="none" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" d="M703.2,115.7c0-39.6,6.2-67.6,18.5-84.2c12.3-16.6,31.2-24.9,56.5-24.9c25.4,0,44.2,8.3,56.5,24.9
+                                          		c12.3,16.6,18.5,44.7,18.5,84.2s-6.2,67.6-18.5,84.2c-12.3,16.6-31.2,24.9-56.5,24.9c-25.4,0-44.2-8.3-56.5-24.9
+                                          		C709.3,183.3,703.2,155.3,703.2,115.7z M746.5,115.7c0,18.1,1.5,35.4,4.5,52.1c3,16.7,12,25,27.2,25c15.1,0,24.2-8.3,27.2-25
+                                          		c3-16.7,4.5-34.1,4.5-52.1c0-18.1-1.5-35.4-4.5-52.1c-3-16.7-12-25-27.2-25c-15.1,0-24.2,8.3-27.2,25
+                                          		C748,80.3,746.5,97.7,746.5,115.7z"/>
+                                            <path class="number0" fill="none" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" d="M878.9,115.7c0-39.6,6.2-67.6,18.5-84.2c12.3-16.6,31.2-24.9,56.5-24.9c25.4,0,44.2,8.3,56.5,24.9
+                                          		c12.3,16.6,18.5,44.7,18.5,84.2s-6.2,67.6-18.5,84.2c-12.3,16.6-31.2,24.9-56.5,24.9c-25.4,0-44.2-8.3-56.5-24.9
+                                          		C885.1,183.3,878.9,155.3,878.9,115.7z M922.3,115.7c0,18.1,1.5,35.4,4.5,52.1c3,16.7,12,25,27.2,25c15.1,0,24.2-8.3,27.2-25
+                                          		c3-16.7,4.5-34.1,4.5-52.1c0-18.1-1.5-35.4-4.5-52.1c-3-16.7-12-25-27.2-25c-15.1,0-24.2,8.3-27.2,25
+                                          		C923.8,80.3,922.3,97.7,922.3,115.7z"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="headlineBottom">satisfied users!</div>
+                            </div>
+                            <div class="avatars" data-parallax='{"y": -40}'>
+                                <div class="avatar" style="background-image: url(assets/images/avatar1.jpg)"></div>
+                                <div class="avatarBig" style="background-image: url(assets/images/avatar2.jpg)"></div>
+                                <div class="avatar" style="background-image: url(assets/images/avatar3.jpg)"></div>
+                            </div>
+                            <div class="subTitle" data-parallax='{"y": -20}'>But what do they say?</div>
+                            <div class="quoteSlider">
+                                <div class="quote">
+                                    <div class="quoteContainer">
+                                        <div class="start"><img src="assets/images/quote1.svg" alt=""></div>
+                                        <div class="end"><img src="assets/images/quote2.svg" alt=""></div>
+                                        Be Theme has been one of the most popular multipurpose WordPress themes for a long time. It is by far the biggest of the premier themes in terms of functionality, as well as in terms of the number of its ready-to-use pre-made layouts that cover almost any theme you can think of...
+                                    </div>
+                                    <div class="logoSlider">
+                                        <div class="logoColumn current">
+                                            <div class="logoContainer">
+                                                <a data-slide="1">
+                                                    <img class="normal" src="assets/images/logos/1.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/1h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="2">
+                                                    <img class="normal" src="assets/images/logos/2.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/2h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="3">
+                                                    <img class="normal" src="assets/images/logos/3.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/3h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="4">
+                                                    <img class="normal" src="assets/images/logos/4.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/4h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="5">
+                                                    <img class="normal" src="assets/images/logos/5.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/5h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="6">
+                                                    <img class="normal" src="assets/images/logos/6.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/6h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <div class="quoteContainer">
+                                        <div class="start"><img src="assets/images/quote1.svg" alt=""></div>
+                                        <div class="end"><img src="assets/images/quote2.svg" alt=""></div>
+                                        Pick a unique layout to better represent your client’s project, and then wow them with plenty of integrated goods like MailChimp, Yoast and bbPress. BeTheme receives updates on a weekly basis and has more than 200 shortcodes to fall back on...
+                                    </div>
+                                    <div class="logoSlider">
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="1">
+                                                    <img class="normal" src="assets/images/logos/1.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/1h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn current">
+                                            <div class="logoContainer">
+                                                <a data-slide="2">
+                                                    <img class="normal" src="assets/images/logos/2.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/2h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="3">
+                                                    <img class="normal" src="assets/images/logos/3.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/3h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="4">
+                                                    <img class="normal" src="assets/images/logos/4.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/4h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="5">
+                                                    <img class="normal" src="assets/images/logos/5.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/5h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="6">
+                                                    <img class="normal" src="assets/images/logos/6.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/6h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <div class="quoteContainer">
+                                        <div class="start"><img src="assets/images/quote1.svg" alt=""></div>
+                                        <div class="end"><img src="assets/images/quote2.svg" alt=""></div>
+                                        Because creatives are bound to a timescale, and we also have to be ready for any type of client who comes knocking at our doors. Cut corners and find all the supplies that you need with this premium theme for WordPress...
+                                    </div>
+                                    <div class="logoSlider">
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="1">
+                                                    <img class="normal" src="assets/images/logos/1.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/1h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="2">
+                                                    <img class="normal" src="assets/images/logos/2.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/2h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn current">
+                                            <div class="logoContainer">
+                                                <a data-slide="3">
+                                                    <img class="normal" src="assets/images/logos/3.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/3h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="4">
+                                                    <img class="normal" src="assets/images/logos/4.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/4h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="5">
+                                                    <img class="normal" src="assets/images/logos/5.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/5h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="6">
+                                                    <img class="normal" src="assets/images/logos/6.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/6h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <div class="quoteContainer">
+                                        <div class="start"><img src="assets/images/quote1.svg" alt=""></div>
+                                        <div class="end"><img src="assets/images/quote2.svg" alt=""></div>
+                                        Pre-built websites represent a new and exciting trend in web design. They give the user a solid foundation to work from, and they serve as excellent conceptual design tools as well...
+                                    </div>
+                                    <div class="logoSlider">
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="1">
+                                                    <img class="normal" src="assets/images/logos/1.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/1h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="2">
+                                                    <img class="normal" src="assets/images/logos/2.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/2h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="3">
+                                                    <img class="normal" src="assets/images/logos/3.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/3h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn current">
+                                            <div class="logoContainer">
+                                                <a data-slide="4">
+                                                    <img class="normal" src="assets/images/logos/4.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/4h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="5">
+                                                    <img class="normal" src="assets/images/logos/5.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/5h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="6">
+                                                    <img class="normal" src="assets/images/logos/6.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/6h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <div class="quoteContainer">
+                                        <div class="start"><img src="assets/images/quote1.svg" alt=""></div>
+                                        <div class="end"><img src="assets/images/quote2.svg" alt=""></div>
+                                        BeTheme is one of the greatest WordPress themes, that you can use to create different kinds of websites, for electric, veterinarian, loan agency, charity agency, sitter, moving company, barber, health magazine, book writer, plumber, art agency, interior design company and many others...
+                                    </div>
+                                    <div class="logoSlider">
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="1">
+                                                    <img class="normal" src="assets/images/logos/1.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/1h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="2">
+                                                    <img class="normal" src="assets/images/logos/2.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/2h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="3">
+                                                    <img class="normal" src="assets/images/logos/3.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/3h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="4">
+                                                    <img class="normal" src="assets/images/logos/4.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/4h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn current">
+                                            <div class="logoContainer">
+                                                <a data-slide="5">
+                                                    <img class="normal" src="assets/images/logos/5.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/5h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="6">
+                                                    <img class="normal" src="assets/images/logos/6.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/6h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <div class="quoteContainer">
+                                        <div class="start"><img src="assets/images/quote1.svg" alt=""></div>
+                                        <div class="end"><img src="assets/images/quote2.svg" alt=""></div>
+                                        In the world of premium WordPress themes, BeTheme is living proof that bigger can be better...
+                                    </div>
+                                    <div class="logoSlider">
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="1">
+                                                    <img class="normal" src="assets/images/logos/1.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/1h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="2">
+                                                    <img class="normal" src="assets/images/logos/2.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/2h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="3">
+                                                    <img class="normal" src="assets/images/logos/3.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/3h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="4">
+                                                    <img class="normal" src="assets/images/logos/4.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/4h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn">
+                                            <div class="logoContainer">
+                                                <a data-slide="5">
+                                                    <img class="normal" src="assets/images/logos/5.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/5h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="logoColumn current">
+                                            <div class="logoContainer">
+                                                <a data-slide="6">
+                                                    <img class="normal" src="assets/images/logos/6.png" alt="">
+                                                    <img class="hover" src="assets/images/logos/6h.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- proyectos -->
+                <div class="section fp-auto-height">
+                    <div class="websitesSection">
+                        <div class="wrapper">
+                            <div data-parallax='{"y": -60}' class="content">
+                                <div class="number">
+                                    <h2>500+</h2>
+                                    <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 702 227" enable-background="new 0 0 702 227" xml:space="preserve">
+                                        <path fill="none" class="number5" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" d="M5.5,203.1c-3.2-4.3-3.7-8-1.3-11.1l10.3-14.1c4.1-5.7,9.1-5.8,14.9-0.4c3.5,3.2,8.9,6.1,16.3,8.7
+                                      		c7.3,2.6,14.6,3.9,22,3.9c11.1,0,20.5-3.1,28.2-9.4c7.7-6.2,11.5-15.4,11.5-27.4c0-11.4-2.1-20.7-6.4-27.7
+                                      		c-4.3-7-9.4-10.5-15.5-10.5c-5.2,0-10,0.5-14.3,1.4c-4.4,0.9-8.9,3.7-13.6,8.4c-3.2,3.2-8.1,4.8-14.6,4.8H23.1
+                                      		c-7.9,0-11.8-3.2-11.8-9.5V19.1c0-6.3,3.2-9.5,9.5-9.5h105.5c6.3,0,9.5,3.2,9.5,9.5v17.3c0,6.3-3.2,9.5-9.5,9.5H52.6v35.9
+                                      		c0,3.9-0.2,7.8-0.6,11.7h0.6c5.2-4.5,10.9-7.5,17.3-9c6.3-1.5,13.1-2.3,20.4-2.3c17.1,0,31.5,5.8,43.3,17.5
+                                      		c11.8,11.7,17.7,29.7,17.7,54.1c0,22.5-7.5,39.6-22.5,51.3c-15,11.8-32.8,17.7-53.4,17.7c-17.2,0-32.1-1.9-44.6-5.6
+                                      		C18.2,213.5,9.7,208.7,5.5,203.1z"/>
+                                        <path fill="none" class="number0" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" d="M175.8,113.7c0-39.6,6.2-67.6,18.5-84.2c12.3-16.6,31.2-24.9,56.5-24.9c25.4,0,44.2,8.3,56.5,24.9
+                                      		c12.3,16.6,18.5,44.7,18.5,84.2s-6.2,67.6-18.5,84.2c-12.3,16.6-31.2,24.9-56.5,24.9c-25.4,0-44.2-8.3-56.5-24.9
+                                      		C182,181.3,175.8,153.3,175.8,113.7z M219.2,113.7c0,18.1,1.5,35.4,4.5,52.1c3,16.7,12,25,27.2,25c15.1,0,24.2-8.3,27.2-25
+                                      		c3-16.7,4.5-34.1,4.5-52.1c0-18.1-1.5-35.4-4.5-52.1c-3-16.7-12-25-27.2-25c-15.1,0-24.2,8.3-27.2,25
+                                      		C220.7,78.3,219.2,95.7,219.2,113.7z"/>
+                                        <path fill="none" class="number0" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" d="M351.6,113.7c0-39.6,6.2-67.6,18.5-84.2c12.3-16.6,31.2-24.9,56.5-24.9c25.4,0,44.2,8.3,56.5,24.9
+                                      		c12.3,16.6,18.5,44.7,18.5,84.2s-6.2,67.6-18.5,84.2c-12.3,16.6-31.2,24.9-56.5,24.9c-25.4,0-44.2-8.3-56.5-24.9
+                                      		C357.7,181.3,351.6,153.3,351.6,113.7z M395,113.7c0,18.1,1.5,35.4,4.5,52.1c3,16.7,12,25,27.2,25c15.1,0,24.2-8.3,27.2-25
+                                      		c3-16.7,4.5-34.1,4.5-52.1c0-18.1-1.5-35.4-4.5-52.1c-3-16.7-12-25-27.2-25c-15.1,0-24.2,8.3-27.2,25
+                                      		C396.4,78.3,395,95.7,395,113.7z"/>
+                                        <path fill="none" class="numberPlus" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" d="M534.8,125.3c-6.2,0-9.3-2.4-9.3-7.3v-12.6c0-4.9,3.1-7.3,9.3-7.3h63.8V34.2c0-6.2,2.4-9.3,7.3-9.3h12.6
+                                      		c4.9,0,7.3,3.1,7.3,9.3V98h63.8c6.2,0,9.3,2.4,9.3,7.3V118c0,4.9-3.1,7.3-9.3,7.3h-63.8v63.8c0,6.2-2.4,9.3-7.3,9.3h-12.6
+                                      		c-4.9,0-7.3-3.1-7.3-9.3v-63.8H534.8z"/>
+                                    </svg>
+                                </div>
+                                <div class="title">ready to use pre-built <br>websites with 1-click <br>installation</div>
+                                <div class="button">
+                                    <a target="_blank" href="https://themes.muffingroup.com/be/splash/">
+                                        View all demos <span><img src="assets/images/arrow.svg" alt=""></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img data-parallax='{"y": 60}' src="assets/images/websites.png" alt="" class="photoBg">
+                    </div>
+                </div>
+<!-- servicios -->
+                <div class="section fp-auto-height">
+                    <div class="premiumSection">
+                        <div class="wrapper">
+                            <div class="headline" data-parallax='{"y": -40}'>
+                                <h2>Premium plugins</h2>
+                            </div>
+                            <div class="items">
+
+                                <div class="item">
+                                    <div class="itemContainer">
+                                      <a target="_blank" href="https://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380?ref=muffingroup">
+                                        <div class="icon"><img src="assets/images/plugins/14.png" width="60" alt=""></div>
+                                        <div class="title">Slider Revolution</div>
+                                        <div class="desc">for building beautiful sliders</div>
+                                      </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="itemContainer">
+                                      <a target="_blank" href="https://codecanyon.net/item/layerslider-responsive-wordpress-slider-plugin/1362246?ref=muffingroup">
+                                        <div class="icon"><img src="assets/images/plugins/13.png" width="60" alt=""></div>
+                                        <div class="title">Layer Slider</div>
+                                        <div class="desc">for creating advanced sliders</div>
+                                      </a>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="itemContainer">
+                                      <a target="_blank" href="https://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431?ref=muffingroup">
+                                        <div class="icon"><img src="assets/images/plugins/10.png" width="70" alt=""></div>
+                                        <div class="title">WPBakery Builder</div>
+                                        <div class="desc">for content building</div>
+                                      </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="itemContainer">
+                                        <div class="icon"><img src="assets/images/plugins/1.png" width="70" alt=""></div>
+                                        <div class="title">WooCommerce</div>
+                                        <div class="desc">for building advanced shops</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="itemContainer">
+                                      <a target="_blank" href="https://wpml.org/?aid=29349&amp;affiliate_key=aCEsSE0ka33p">
+                                        <div class="icon"><img src="assets/images/plugins/2.png" width="60" alt=""></div>
+                                        <div class="title">WPML</div>
+                                        <div class="desc">for language translations</div>
+                                      </a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="itemContainer">
+                                        <div class="icon"><img src="assets/images/plugins/4.png" width="60" alt=""></div>
+                                        <div class="title">Contact form 7</div>
+                                        <div class="desc">for building great forms</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="itemContainer">
+                                        <div class="icon"><img src="assets/images/plugins/5.png" width="59" alt=""></div>
+                                        <div class="title">MailChimp</div>
+                                        <div class="desc">for mailing campaigns</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="itemContainer">
+                                        <div class="icon"><img src="assets/images/plugins/6.png" width="57" alt=""></div>
+                                        <div class="title">The event Calendar</div>
+                                        <div class="desc">for smarter organization</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="itemContainer">
+                                        <div class="icon"><img src="assets/images/plugins/7.png" width="67" alt=""></div>
+                                        <div class="title">YOAST</div>
+                                        <div class="desc">for SEO improvements</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- #teamimpulse -->
+                <div class="section fp-auto-height">
+                    <div class="whoSection">
+                        <div class="wrapper">
+                            <div class="intro" data-parallax='{"y": -40}'>
+                                <img src="assets/images/logo2.svg" alt="">
+                                <div class="pattern2">
+                                    <div data-parallax='{"y": 100, "x": -800, "scale": 0.5, "rotateZ": -190}'><img src="assets/images/pattern/7.svg" alt=""></div>
+                                    <div data-parallax='{"y": -400, "x": 500, "scale": 0.5, "rotateZ": 420}'><img src="assets/images/pattern/5.svg" alt=""></div>
+                                    <div data-parallax='{"y": 600, "x": -400, "scale": 0.5, "rotateZ": 360}'><img src="assets/images/pattern/3.svg" alt=""></div>
+                                    <div data-parallax='{"y": 200, "x": -400, "scale": 0.5, "rotateZ": -300}'><img src="assets/images/pattern/2.svg" alt=""></div>
+                                    <div data-parallax='{"y": -100, "x": 500, "scale": 0.5, "rotateZ": -60}'><img src="assets/images/pattern/8.svg" alt=""></div>
+                                    <div data-parallax='{"y": -500, "x": -200, "scale": 0.75, "rotateZ": 380}'><img src="assets/images/pattern/8.svg" alt=""></div>
+                                    <div data-parallax='{"y": 300, "x": 600, "scale": 0.5, "rotateZ": -270}'><img src="assets/images/pattern/4.svg" alt=""></div>
+                                    <div data-parallax='{"y": 300, "x": -500, "scale": 0.5, "rotateZ": 190}'><img src="assets/images/pattern/3.svg" alt=""></div>
+                                    <div data-parallax='{"y": -200, "x": -300, "scale": 0.75, "rotateZ": -260}'><img src="assets/images/pattern/5.svg" alt=""></div>
+                                    <div data-parallax='{"y": 500, "x": 500, "scale": 0.5, "rotateZ": 40}'><img src="assets/images/pattern/8.svg" alt=""></div>
+                                    <div data-parallax='{"y": 100, "x": 200, "scale": 0.75, "rotateZ": -460}'><img src="assets/images/pattern/7.svg" alt=""></div>
+                                    <div data-parallax='{"y": 100, "x": -200, "scale": 0.5, "rotateZ": -70}'><img src="assets/images/pattern/2.svg" alt=""></div>
+                                    <div data-parallax='{"y": -200, "x": -200, "scale": 0.75, "rotateZ": 190}'><img src="assets/images/pattern/7.svg" alt=""></div>
+                                    <div data-parallax='{"y": -100, "x": 400, "scale": 0.75, "rotateZ": 400}'><img src="assets/images/pattern/2.svg" alt=""></div>
+                                    <div data-parallax='{"y": 200, "x": 300, "scale": 0.5, "rotateZ": 290}'><img src="assets/images/pattern/5.svg" alt=""></div>
+                                    <div data-parallax='{"y": -100, "x": -100, "scale": 0.75, "rotateZ": 190}'><img src="assets/images/pattern/8.svg" alt=""></div>
+                                </div>
+                            </div>
+                            <h2 data-parallax='{"y": -20}'>TeamImpulse</h2>
+                            <div class="columns">
+                                <!-- <div class="leftColumn">
+                                    <div class="rowContainer">
+                                        <div class="count" data-parallax='{"y": -40}'>
+                                            <div>6</div>
+                                            <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 100 150" enable-background="new 0 0 100 150" xml:space="preserve">
+                                                <g>
+                                                    <path class="number6" fill="none" stroke="#3A547A" stroke-width="2" stroke-miterlimit="10" d="M3,77.4C3,49.9,7.9,31,17.8,20.8S40.1,5.5,55.1,5.5
+                                                        C61,5.5,66.8,6.3,72.6,8s10.3,3.9,13.4,6.6c2.9,2.6,3.6,5.2,1.9,7.7l-6,9.1c-2,3-4.8,3-8.5,0c-1.8-1.5-4.5-2.7-8-3.8
+                                                        c-3.5-1.1-7.2-1.6-11-1.6c-6.4,0-12.3,3-17.7,9s-8.1,16.2-8.1,30.6h0.4c2.7-4.2,6.6-7.1,11.5-8.9S51.2,54,58.2,54
+                                                        c12.8,0,22.4,4.2,29,12.6C93.7,75,97,85.4,97,97.8c0,13.4-3.8,24.2-11.5,32.2s-19.3,12-35,12c-16.7,0-28.8-5.6-36.3-16.8
+                                                        S3,98.1,3,77.4z M33.1,98.3c0,7.5,1.5,13.2,4.6,17.2c3.1,4,7.5,6,13.4,6c6.2,0,10.9-1.7,13.9-5c3.1-3.4,4.6-9.6,4.6-18.8
+                                                        c0-8.1-1.5-13.9-4.6-17.6s-7.3-5.5-12.8-5.5c-6,0-10.7,2.5-14.1,7.4C34.7,86.9,33.1,92.4,33.1,98.3z"/>
+                                                </g>
+                                           </svg>
+                                        </div>
+                                        <div class="desc">
+                                            Experienced<br>and creative<br>team members
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="centerColumn">
+                                    <div class="columnContainer">
+                                        We are an experienced team creating great, unique and easy to set up templates for WordPress. We are also creating websites and web applications. In our work we use the latest technologies, and our heads are always full of ideas. Our domain is creativity, experience and openness to new horizons. We hope that our products satisfy you, and fully meet your needs.
+                                    </div>
+                                </div>
+                                <!-- <div class="rightColumn">
+                                    <div class="rowContainer">
+                                        <div class="desc">
+                                            Years<br>of experience<br>in programming
+                                        </div>
+                                        <div class="count" data-parallax='{"y": -40}'>
+                                            <div>8</div>
+                                            <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 100 150" style="enable-background:new 0 0 100 150;" xml:space="preserve">
+                                                <g>
+                                                    <path class="number8" style="fill:none;stroke:#3A547A;stroke-width:2;stroke-miterlimit:10;" d="M2.2,105.1c0-10.6,3.3-18.9,9.8-24.8
+                                                        c6.5-5.9,12.1-9.5,16.8-10.8V69c-5.3-1.7-10.4-5-15.4-9.9C8.5,54.2,6,47.7,6,39.7C6,30,9.9,21.9,17.7,15.4
+                                                        c7.8-6.6,18.5-9.8,32.1-9.8c13.6,0,24.3,3.3,32.1,9.8c7.8,6.6,11.7,14.7,11.7,24.3c0,8-2.5,14.5-7.5,19.4S76.2,67.3,71,69v0.5
+                                                        c4.7,1.3,10.3,4.9,16.8,10.8s9.8,14.2,9.8,24.8c0,11.4-3.7,20.8-11.2,27.9c-7.5,7.2-19.6,10.8-36.5,10.8s-29.1-3.6-36.5-10.8
+                                                        C5.9,125.8,2.2,116.5,2.2,105.1z M30,102.3c0,7,1.5,12.2,4.6,15.6c3.1,3.4,8.2,5.1,15.2,5.1s12.1-1.7,15.2-5.1
+                                                        c3.1-3.4,4.6-8.6,4.6-15.6c0-5.3-1.7-10.2-5.1-14.7c-3.4-4.5-8.3-6.7-14.8-6.7s-11.4,2.2-14.8,6.7C31.7,92.1,30,97,30,102.3z
+                                                         M33.1,42.5c0,4.9,1.4,8.8,4.2,11.7c2.8,2.8,7,4.3,12.6,4.3s9.8-1.4,12.6-4.3c2.8-2.8,4.2-6.7,4.2-11.7c0-4.9-1.5-8.9-4.4-11.8
+                                                        c-2.9-2.9-7.1-4.4-12.4-4.4c-5.3,0-9.4,1.5-12.4,4.4C34.6,33.6,33.1,37.5,33.1,42.5z"/>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="team">
+                                <!-- <div class="column person1" data-parallax='{"y": 0}'>
+                                    <div class="columnContainer">
+                                        <div class="photo" style="background-image: url(assets/images/team1.jpg)"></div>
+                                        <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 180 180" style="enable-background:new 0 0 180 180;" xml:space="preserve">
+                                            <path style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M2,90C2,41.4,41.4,2,90,2s88,39.4,88,88
+                                                s-39.4,88-88,88S2,138.6,2,90"/>
+                                        </svg>
+                                        <div class="name">Konrad</div>
+                                    </div>
+                                </div> -->
+                                <div class="column person2" data-parallax='{"y": -40}'>
+                                    <div class="columnContainer">
+                                        <div class="photo" style="background-image: url(assets/images/team2.jpg)"></div>
+                                        <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 180 180" style="enable-background:new 0 0 180 180;" xml:space="preserve">
+                                            <path style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M2,90C2,41.4,41.4,2,90,2s88,39.4,88,88
+                                                s-39.4,88-88,88S2,138.6,2,90"/>
+                                        </svg>
+                                        <div class="name">Marcin</div>
+                                    </div>
+                                </div>
+                                <div class="column person3" data-parallax='{"y": -80}'>
+                                    <div class="columnContainer">
+                                        <div class="photo" style="background-image: url(assets/images/team3.jpg)"></div>
+                                        <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 180 180" style="enable-background:new 0 0 180 180;" xml:space="preserve">
+                                            <path style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M2,90C2,41.4,41.4,2,90,2s88,39.4,88,88
+                                                s-39.4,88-88,88S2,138.6,2,90"/>
+                                        </svg>
+                                        <div class="name">Albert</div>
+                                    </div>
+                                </div>
+                                <div class="column person4" data-parallax='{"y": -80}'>
+                                    <div class="columnContainer">
+                                        <div class="photo" style="background-image: url(assets/images/team4.jpg)"></div>
+                                        <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 180 180" style="enable-background:new 0 0 180 180;" xml:space="preserve">
+                                            <path style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M2,90C2,41.4,41.4,2,90,2s88,39.4,88,88
+                                                s-39.4,88-88,88S2,138.6,2,90"/>
+                                        </svg>
+                                        <div class="name">Artur</div>
+                                    </div>
+                                </div>
+                                <div class="column person5" data-parallax='{"y": -40}'>
+                                    <div class="columnContainer">
+                                        <div class="photo" style="background-image: url(assets/images/team5.jpg)"></div>
+                                        <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 180 180" style="enable-background:new 0 0 180 180;" xml:space="preserve">
+                                            <path style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M2,90C2,41.4,41.4,2,90,2s88,39.4,88,88
+                                                s-39.4,88-88,88S2,138.6,2,90"/>
+                                        </svg>
+                                        <div class="name">Michał</div>
+                                    </div>
+                                </div>
+                                <!-- <div class="column person6">
+                                    <div class="columnContainer">
+                                        <div class="photo" style="background-image: url(assets/images/team6.jpg)"></div>
+                                        <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 180 180" style="enable-background:new 0 0 180 180;" xml:space="preserve">
+                                            <path style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M2,90C2,41.4,41.4,2,90,2s88,39.4,88,88
+                                                s-39.4,88-88,88S2,138.6,2,90"/>
+                                        </svg>
+                                        <div class="name">Wojtek</div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- Contacto -->
+                <div class="section fp-auto-height">
+                    <div class="contactSection">
+                        <div class="wrapper">
+                            <h2 data-parallax='{"y": -40}'>Get in touch with us</h2>
+                            <div class="columns">
+                                <!-- <div class="column">
+                                    <div class="icon" data-parallax='{"y": -40}'><img src="assets/images/contactIcon1.svg" alt=""></div>
+                                    <div class="title" data-parallax='{"y": -20}'>
+                                        <div>Support contacto</div>
+                                        <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 550 110" style="enable-background:new 0 0 550 110;" xml:space="preserve">
+                                            <g>
+                                                <path class="letter1" style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M82.2,104.3c-3.2,0-4.8-1.7-4.8-5.1V11.4
+                                                    c0-3.4,1.6-5.1,4.8-5.1h54.1c3.4,0,5.1,1.5,5.1,4.4v8.1c0,3-1.7,4.4-5.1,4.4H97.4V47h33.3c3.4,0,5.1,1.5,5.1,4.4v8.1
+                                                    c0,3-1.7,4.4-5.1,4.4H97.4v35.2c0,3.4-1.6,5.1-4.8,5.1H82.2z"/>
+                                                <path class="letter2" style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M152.4,68.4c0-11.6,3-20.7,9-27.3
+                                                    c6-6.6,14.9-9.9,26.8-9.9c11.8,0,20.8,3.3,26.8,9.9c6,6.6,9,15.7,9,27.3s-3,20.7-9,27.3c-6,6.6-14.9,9.9-26.8,9.9
+                                                    c-11.8,0-20.8-3.3-26.8-9.9C155.4,89.1,152.4,80,152.4,68.4z M172.6,68.4c0,8.7,1.3,14.8,4,18.4s6.5,5.4,11.5,5.4
+                                                    c5,0,8.9-1.8,11.5-5.4s4-9.8,4-18.4c0-8.7-1.3-14.8-4-18.4s-6.5-5.4-11.5-5.4c-5,0-8.9,1.8-11.5,5.4S172.6,59.7,172.6,68.4z"/>
+                                                <path class="letter3" style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M242.7,104.3c-2.7,0-4.1-1.4-4.1-4.1V36.6
+                                                    c0-2.7,1.4-4.1,4.1-4.1h10.8c2.7,0,4.1,1.4,4.1,4.1v5.6c1.2-2.9,3.2-5.5,6-7.7c2.8-2.2,6.1-3.3,10-3.3c2.6,0,4.8,0.3,6.5,1
+                                                    c1.6,0.6,2.2,1.7,1.8,3.3l-1.9,8.1c-0.4,1.8-1.6,2.4-3.7,1.6c-1.2-0.4-2.3-0.6-3.4-0.6c-4.4,0-8.1,2.6-10.9,7.9
+                                                    c-2.9,5.2-4.3,12.9-4.3,22.9v24.9c0,2.7-1.4,4.1-4.1,4.1H242.7z"/>
+                                                <path class="letter4" style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M292.2,74.5V36.6c0-2.7,1.4-4.1,4.1-4.1h10.9
+                                                    c2.7,0,4.1,1.4,4.1,4.1v32.9c0,9.9,0.7,16.2,2.1,18.8s4.2,3.9,8.6,3.9c4.7,0,8.3-1.9,10.7-5.6c2.4-3.7,3.7-11.4,3.7-23.1V36.6
+                                                    c0-2.7,1.4-4.1,4.1-4.1h10.9c2.7,0,4.1,1.4,4.1,4.1v63.6c0,2.7-1.4,4.1-4.1,4.1h-10.8c-2.7,0-4.1-1.4-4.1-4.1v-4
+                                                    c-2.1,3.6-4.8,6.1-8.1,7.4s-7.2,2-11.6,2c-7,0-12.8-2.2-17.4-6.7C294.6,94.5,292.2,86.3,292.2,74.5z"/>
+                                                <path class="letter5" style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M378.1,104.3c-2.7,0-4.1-1.4-4.1-4.1V36.6
+                                                    c0-2.7,1.4-4.1,4.1-4.1h10.8c2.7,0,4.1,1.4,4.1,4.1v4c1.4-2.9,3.7-5.2,6.9-6.9c3.2-1.7,6.3-2.5,9.1-2.5c5.6,0,10,1,13.1,2.9
+                                                    c3.1,1.9,5.3,4.1,6.5,6.5h0.3c4-3.9,7.7-6.5,11-7.7c3.3-1.2,7.5-1.8,12.6-1.8c6.9,0,12.6,2.2,17.4,6.7c4.7,4.5,7.1,12.6,7.1,24.5
+                                                    v37.9c0,2.7-1.4,4.1-4.1,4.1h-10.9c-2.7,0-4.1-1.4-4.1-4.1V67.2c0-9.9-0.7-16.2-2.1-18.8c-1.4-2.6-3.9-3.9-7.4-3.9
+                                                    c-3.3,0-6.3,1.9-9.1,5.6c-2.7,3.7-4.1,11.4-4.1,23.1v26.9c0,2.7-1.4,4.1-4.1,4.1h-10.9c-2.7,0-4.1-1.4-4.1-4.1V67.2
+                                                    c0-9.9-0.7-16.2-2.1-18.8s-3.9-3.9-7.5-3.9c-3.3,0-6.4,1.9-9.1,5.6c-2.8,3.7-4.1,11.4-4.1,23.1v26.9c0,2.7-1.4,4.1-4.1,4.1H378.1z"
+                                                    />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="button">
+                                        <a href="https://forum.muffingroup.com/" target="_blank">
+                                            Read more <span><img src="assets/images/arrow.svg" alt=""></span>
+                                        </a>
+                                    </div>
+                                </div> -->
+                                <div class="column">
+                                    <div class="icon" data-parallax='{"y": -40}'><img src="assets/images/contactIcon2.svg" alt=""></div>
+                                    <div class="title" data-parallax='{"y": -20}'>
+                                        <div>Contact us</div>
+                                        <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 550 110" style="enable-background:new 0 0 550 110;" xml:space="preserve">
+                                            <g>
+                                                <path class="letter6" style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M15.4,55.3c0-15.7,4-28.2,12-37.5
+                                                    c8-9.3,19.5-13.9,34.5-13.9c8.7,0,16,1.3,22,4c6,2.7,10.3,6.6,12.7,11.7c1.6,3.4,1.4,5.7-0.8,6.8l-8.2,4.4
+                                                    c-2.9,1.5-5.2,0.7-7.1-2.6c-1.2-2.1-3.4-4-6.6-5.7c-3.2-1.7-7-2.5-11.3-2.5c-9.6,0-16.3,3-20.1,9.1c-3.8,6-5.7,14.8-5.7,26.1
+                                                    c0,11.4,1.9,20.1,5.7,26.1c3.8,6,10.5,9.1,20.1,9.1c5.1,0,9.5-1.2,13-3.5c3.5-2.3,6-4.5,7.3-6.6c2.2-3.4,4.6-4.3,7.1-2.6l8.2,5.5
+                                                    c2.2,1.5,2.5,3.8,0.7,6.8c-2.6,4.6-7.2,8.5-13.6,11.7s-14.2,4.9-23.4,4.9c-14.8,0-26.3-4.6-34.4-13.9C19.4,83.5,15.4,71,15.4,55.3z
+                                                    "/>
+                                                <path class="letter7" style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M111.9,68.4c0-11.6,3-20.7,9-27.3
+                                                    c6-6.6,14.9-9.9,26.8-9.9c11.8,0,20.8,3.3,26.8,9.9c6,6.6,9,15.7,9,27.3s-3,20.7-9,27.3c-6,6.6-14.9,9.9-26.8,9.9
+                                                    c-11.8,0-20.8-3.3-26.8-9.9C114.9,89.1,111.9,80,111.9,68.4z M132.2,68.4c0,8.7,1.3,14.8,4,18.4s6.5,5.4,11.5,5.4
+                                                    c5,0,8.9-1.8,11.5-5.4s4-9.8,4-18.4c0-8.7-1.3-14.8-4-18.4s-6.5-5.4-11.5-5.4c-5,0-8.9,1.8-11.5,5.4S132.2,59.7,132.2,68.4z"/>
+                                                <path class="letter8" style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M202.3,104.3c-2.7,0-4.1-1.4-4.1-4.1V36.6
+                                                    c0-2.7,1.4-4.1,4.1-4.1h10.8c2.7,0,4.1,1.4,4.1,4.1v4c2.1-3.6,4.8-6.1,8-7.4c3.3-1.3,7.2-2,11.8-2c7.2,0,13.1,2.2,17.7,6.7
+                                                    c4.7,4.5,7,12.6,7,24.5v37.9c0,2.7-1.4,4.1-4.1,4.1h-10.9c-2.7,0-4.1-1.4-4.1-4.1V67.2c0-9.9-0.7-16.2-2.1-18.8s-4.3-3.9-8.9-3.9
+                                                    c-4.8,0-8.4,1.9-10.9,5.6c-2.4,3.7-3.6,11.4-3.6,23.1v26.9c0,2.7-1.4,4.1-4.1,4.1H202.3z"/>
+                                                <path class="letter9" style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M277.8,46.2c-2.7,0-4-1.1-4-3.4v-6.8
+                                                    c0-2.3,1.3-3.4,4-3.4h4.6v-2.4c0-2.1,0.5-3.9,1.4-5.6l5.3-9.2c1-1.7,2.2-2.6,3.6-2.6h4.8c2.7,0,4.1,1.4,4.1,4.1v15.7h11.1
+                                                    c2.7,0,4,1.1,4,3.4v6.8c0,2.3-1.3,3.4-4,3.4h-11.1v33.9c0,4.6,0.3,8,1,10c0.7,2,2.4,3,5.2,3c1.4,0,3-0.2,4.8-0.7s3.2-0.9,4.2-1.4
+                                                    c1.6-0.7,2.6-0.2,3.1,1.6l2.1,7.8c0.4,1.5-0.2,2.7-1.8,3.4c-1.5,0.7-3.6,1.3-6.2,1.9c-2.6,0.6-5.3,0.9-7.9,0.9
+                                                    c-6.5,0-12.1-1.3-16.7-4c-4.6-2.7-6.9-8.2-6.9-16.6V46.2H277.8z"/>
+                                                <path class="letter10" style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M330.9,85.1c0-9.1,4.4-15.7,13.1-19.8
+                                                    c8.7-4.1,18.6-6.3,29.8-6.6V56c0-4.2-1-7.2-3.1-8.9c-2.1-1.7-5-2.6-8.8-2.6c-2.6,0-5,0.4-7,1.1c-2,0.8-3.8,1.6-5.3,2.6
+                                                    c-1.5,1-2.8,2-4,3c-2.1,1.8-3.8,1.9-5.2,0.3l-5.7-7c-1.4-1.7-1.1-3.5,1-5.3c1.6-1.4,3.5-2.6,5.6-3.7c2.1-1,4.9-2,8.4-3
+                                                    c3.5-0.9,8.1-1.4,13.7-1.4c9.5,0,16.8,2.2,21.8,6.6c5.1,4.4,7.6,10.8,7.6,19.3v43.1c0,2.7-1.4,4.1-4.1,4.1h-11.3
+                                                    c-2.5,0-3.7-1.4-3.7-4.1v-2.1c-2.7,2.6-5.9,4.5-9.7,5.7s-7.2,1.8-10.4,1.8c-7.5,0-13.1-1.8-17-5.5
+                                                    C332.9,96.5,330.9,91.5,330.9,85.1z M351.2,84.7c0,1.6,0.3,3,1,4.1c0.6,1.2,1.6,2,3,2.6s2.9,0.8,4.6,0.8c2.3,0,4.6-0.3,6.8-1
+                                                    c2.2-0.6,4.6-2.1,7.3-4.5V71.9c-7.7,0.9-12.8,2-15.4,3.3s-4.5,2.8-5.6,4.2C351.7,81,351.2,82.7,351.2,84.7z"/>
+                                                <path class="letter11" style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M407.7,68.4c0-11.6,2.9-20.7,8.8-27.3
+                                                    c5.8-6.6,14.8-9.9,26.9-9.9c7.1,0,12.6,0.9,16.5,2.8c3.9,1.9,7.1,4.6,9.4,8.2c1.4,2.1,1.2,3.8-0.7,5.1l-7.2,4.8
+                                                    c-2.1,1.4-3.9,0.8-5.4-1.6c-0.8-1.2-2.3-2.5-4.4-3.8s-4.9-2.1-8.1-2.1c-5.2,0-9,1.8-11.6,5.4c-2.6,3.6-3.8,9.8-3.8,18.4
+                                                    c0,8.7,1.3,14.8,3.8,18.4c2.6,3.6,6.4,5.4,11.6,5.4c3.7,0,6.7-0.8,9-2.3c2.3-1.5,4.4-3.6,6.4-6c1.7-2.1,3.6-2.4,5.5-0.9l6.4,5
+                                                    c1.9,1.5,2,3.5,0.3,6c-1.8,2.6-4.8,5.2-9.1,7.8c-4.3,2.6-10.4,3.8-18.5,3.8c-12.1,0-21-3.3-26.9-9.9
+                                                    C410.6,89.1,407.7,80,407.7,68.4z"/>
+                                                <path class="letter12" style="fill:none;stroke:#3A547A;stroke-width:1.9775;stroke-miterlimit:10;" d="M483.4,46.2c-2.7,0-4-1.1-4-3.4v-6.8
+                                                    c0-2.3,1.3-3.4,4-3.4h4.6v-2.4c0-2.1,0.5-3.9,1.4-5.6l5.3-9.2c1-1.7,2.2-2.6,3.6-2.6h4.8c2.7,0,4.1,1.4,4.1,4.1v15.7h11.1
+                                                    c2.7,0,4,1.1,4,3.4v6.8c0,2.3-1.3,3.4-4,3.4h-11.1v33.9c0,4.6,0.3,8,1,10c0.7,2,2.4,3,5.2,3c1.4,0,3-0.2,4.8-0.7s3.2-0.9,4.2-1.4
+                                                    c1.6-0.7,2.6-0.2,3.1,1.6l2.1,7.8c0.4,1.5-0.2,2.7-1.8,3.4c-1.5,0.7-3.6,1.3-6.2,1.9c-2.6,0.6-5.3,0.9-7.9,0.9
+                                                    c-6.5,0-12.1-1.3-16.7-4c-4.6-2.7-6.9-8.2-6.9-16.6V46.2H483.4z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="button">
+                                        <a href="https://themeforest.net/user/muffingroup#contact" rel="nofollow" target="_blank">
+                                            Read more <span><img src="assets/images/arrow.svg" alt=""></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="links">
+                                <div class="column">
+                                    <a href="https://themes.muffingroup.com/betheme/documentation/" target="_blank"><span class="icon"><img src="assets/images/linkIcon1.svg" alt=""></span>BeTheme user guide <span class="arrow"><img src="assets/images/arrow2.svg" alt=""></span></a>
+                                </div>
+                                <div class="column">
+                                    <a href="https://forum.muffingroup.com/betheme/" target="_blank"><span class="icon"><img src="assets/images/linkIcon2.svg" alt=""></span>Theme support forum <span class="arrow"><img src="assets/images/arrow2.svg" alt=""></span></a>
+                                </div>
+                                <div class="column">
+                                    <a href="https://www.youtube.com/user/MuffinGroup/videos" target="_blank" rel="nofollow"><span class="icon"><img src="assets/images/linkIcon3.svg" alt=""></span>Learn with video tutorials <span class="arrow"><img src="assets/images/arrow2.svg" alt=""></span></a>
+                                </div>
+                            </div>
+                            <div class="copyright">Copyright © 2020 por <a href="#">Impulse Technologies</a>. Todos los derechos reservados. Escribenos a nuestras <a target="_blank" href="#">Redes</a>.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pattern">
+                <div style="top: 15%; left: 10%;" data-parallax='{"y": 500, "x": -300, "scale": 1, "rotateZ": 290}'><img src="assets/images/pattern/1.svg" alt=""></div>
+                <div style="top: 25%; right: 14%;" data-parallax='{"y": -300, "x": 600, "scale": 0.5, "rotateZ": -70}'><img src="assets/images/pattern/6.svg" alt=""></div>
+                <div style="top: 28%; left: 75%;" data-parallax='{"y": -300, "x": -500, "scale": 0.5, "rotateZ": -190}'><img src="assets/images/pattern/9.svg" alt=""></div>
+                <div style="top: 74%; right: 36%;" data-parallax='{"y": 400, "x": 100, "scale": 1.5, "rotateZ": 120}'><img src="assets/images/pattern/4.svg" alt=""></div>
+                <div style="top: 3%; left: 30%;" data-parallax='{"y": 200, "x": -300, "scale": 0, "rotateZ": 60}'><img src="assets/images/pattern/5.svg" alt=""></div>
+                <div style="top: 66%; right: 84%;" data-parallax='{"y": -500, "x": -300, "scale": 0.5, "rotateZ": 90}'><img src="assets/images/pattern/8.svg" alt=""></div>
+                <div style="top: 40%; right: 85%;" data-parallax='{"y": 400, "x": 200, "scale": 1.5, "rotateZ": -60}'><img src="assets/images/pattern/4.svg" alt=""></div>
+                <div style="top: 4%; left: 40%;" data-parallax='{"y": -400, "x": 200, "scale": 1, "rotateZ": 290}'><img src="assets/images/pattern/8.svg" alt=""></div>
+                <div style="top: 36%; right: 37%;" data-parallax='{"y": -100, "x": 200, "scale": 0.5, "rotateZ": -70}'><img src="assets/images/pattern/1.svg" alt=""></div>
+                <div style="top: 47%; left: 33%;" data-parallax='{"y": 200, "x": -200, "scale": 0.5, "rotateZ": -190}'><img src="assets/images/pattern/7.svg" alt=""></div>
+                <div style="top: 86%; right: 9%;" data-parallax='{"y": -400, "x": 500, "scale": 1.5, "rotateZ": 120}'><img src="assets/images/pattern/5.svg" alt=""></div>
+                <div style="top: 9%; left: 17%;" data-parallax='{"y": 600, "x": -400, "scale": 1, "rotateZ": 60}'><img src="assets/images/pattern/9.svg" alt=""></div>
+                <div style="top: 26%; left: 40%;" data-parallax='{"y": 200, "x": -400, "scale": 0.5, "rotateZ": -300}'><img src="assets/images/pattern/2.svg" alt=""></div>
+                <div style="top: 98%; right: 2%;" data-parallax='{"y": -100, "x": 500, "scale": 1.5, "rotateZ": -60}'><img src="assets/images/pattern/1.svg" alt=""></div>
+                <div style="top: 11%; left: 90%;" data-parallax='{"y": -200, "x": -300, "scale": 1, "rotateZ": 180}'><img src="assets/images/pattern/8.svg" alt=""></div>
+                <div style="top: 47%; right: 74%;" data-parallax='{"y": 300, "x": 600, "scale": 0.5, "rotateZ": -270}'><img src="assets/images/pattern/4.svg" alt=""></div>
+                <div style="top: 88%; left: 25%;" data-parallax='{"y": 300, "x": -500, "scale": 0.5, "rotateZ": 190}'><img src="assets/images/pattern/3.svg" alt=""></div>
+                <div style="top: 97%; left: 30%;" data-parallax='{"y": -200, "x": -300, "scale": 1, "rotateZ": -260}'><img src="assets/images/pattern/5.svg" alt=""></div>
+                <div style="top: 36%; right: 24%;" data-parallax='{"y": 500, "x": 500, "scale": 0.5, "rotateZ": 90}'><img src="assets/images/pattern/6.svg" alt=""></div>
+                <div style="top: 95%; left: 60%;" data-parallax='{"y": 100, "x": 200, "scale": 1, "rotateZ": -160}'><img src="assets/images/pattern/7.svg" alt=""></div>
+                <div style="top: 14%; right: 67%;" data-parallax='{"y": 100, "x": -200, "scale": 0.5, "rotateZ": -70}'><img src="assets/images/pattern/9.svg" alt=""></div>
+                <div style="top: 63%; left: 73%;" data-parallax='{"y": -200, "x": -200, "scale": 0.5, "rotateZ": 190}'><img src="assets/images/pattern/7.svg" alt=""></div>
+                <div style="top: 12%; right: 35%;" data-parallax='{"y": -100, "x": 400, "scale": 1.5, "rotateZ": 50}'><img src="assets/images/pattern/2.svg" alt=""></div>
+                <div style="top: 85%; right: 90%;" data-parallax='{"y": 200, "x": 300, "scale": 0.5, "rotateZ": 290}'><img src="assets/images/pattern/5.svg" alt=""></div>
+                <div style="top: 93%; left: 23%;" data-parallax='{"y": -100, "x": -100, "scale": 0.5, "rotateZ": 190}'><img src="assets/images/pattern/9.svg" alt=""></div>
+                <div style="top: 75%; left: 0%;" data-parallax='{"y": 0, "x": 200, "scale": 0.5, "rotateZ": -160}'><img src="assets/images/pattern/1.svg" alt=""></div>
+                <div style="top: 84%; right: 67%;" data-parallax='{"y": 300, "x": -20, "scale": 1.5, "rotateZ": -70}'><img src="assets/images/pattern/2.svg" alt=""></div>
+                <div style="top: 69%; right: 9%;" data-parallax='{"y": -100, "x": 300, "scale": 1.5, "rotateZ": 120}'><img src="assets/images/pattern/8.svg" alt=""></div>
+                <div style="top: 74%; left: 57%;" data-parallax='{"y": 600, "x": -200, "scale": 1, "rotateZ": 60}'><img src="assets/images/pattern/7.svg" alt=""></div>
+                <div style="top: 2%; right: 4%;" data-parallax='{"y": 400, "x": -200, "scale": 1.5, "rotateZ": -60}'><img src="assets/images/pattern/1.svg" alt=""></div>
+                <div style="top: 15%; left: 90%;" data-parallax='{"y": -200, "x": -300, "scale": 1, "rotateZ": 180}'><img src="assets/images/pattern/2.svg" alt=""></div>
+                <div style="top: 17%; right: 74%;" data-parallax='{"y": -300, "x": 600, "scale": 0.5, "rotateZ": -70}'><img src="assets/images/pattern/7.svg" alt=""></div>
+                <div style="top: 48%; left: 25%;" data-parallax='{"y": 300, "x": -500, "scale": 0.5, "rotateZ": 190}'><img src="assets/images/pattern/2.svg" alt=""></div>
+                <div style="top: 44%; right: 64%;" data-parallax='{"y": -400, "x": 100, "scale": 1.5, "rotateZ": 120}'><img src="assets/images/pattern/1.svg" alt=""></div>
+                <div style="top: 17%; left: 0%;" data-parallax='{"y": -200, "x": -300, "scale": 1, "rotateZ": -60}'><img src="assets/images/pattern/3.svg" alt=""></div>
+                <div style="top: 66%; right: 24%;" data-parallax='{"y": 500, "x": 300, "scale": 0.5, "rotateZ": 190}'><img src="assets/images/pattern/2.svg" alt=""></div>
+                <div style="top: 10%; right: 15%;" data-parallax='{"y": -400, "x": -200, "scale": 1.5, "rotateZ": -60}'><img src="assets/images/pattern/4.svg" alt=""></div>
+                <div style="top: 14%; right: 67%;" data-parallax='{"y": -100, "x": -200, "scale": 0.5, "rotateZ": -70}'><img src="assets/images/pattern/9.svg" alt=""></div>
+                <div style="top: 63%; left: 73%;" data-parallax='{"y": -200, "x": -200, "scale": 0.5, "rotateZ": -190}'><img src="assets/images/pattern/6.svg" alt=""></div>
+                <div style="top: 12%; right: 25%;" data-parallax='{"y": 300, "x": 400, "scale": 1.5, "rotateZ": 120}'><img src="assets/images/pattern/3.svg" alt=""></div>
+                <div style="top: 9%; right: 90%;" data-parallax='{"y": 200, "x": 300, "scale": 0.5, "rotateZ": 290}'><img src="assets/images/pattern/8.svg" alt=""></div>
+                <div style="top: 3%; left: 23%;" data-parallax='{"y": -100, "x": -100, "scale": 0.5, "rotateZ": -190}'><img src="assets/images/pattern/6.svg" alt=""></div>
+                <div style="top: 15%; left: 0%;" data-parallax='{"y": 0, "x": 200, "scale": 0.5, "rotateZ": -160}'><img src="assets/images/pattern/2.svg" alt=""></div>
+                <div style="top: 19%; right: 67%;" data-parallax='{"y": 300, "x": -20, "scale": 1.5, "rotateZ": -70}'><img src="assets/images/pattern/5.svg" alt=""></div>
+                <div style="top: 22%; right: 9%;" data-parallax='{"y": -100, "x": 300, "scale": 1.5, "rotateZ": 120}'><img src="assets/images/pattern/8.svg" alt=""></div>
+                <div style="top: 54%; left: 57%;" data-parallax='{"y": 600, "x": -200, "scale": 1, "rotateZ": 160}'><img src="assets/images/pattern/6.svg" alt=""></div>
+            </div>
+        </div>
     </body>
 </html>

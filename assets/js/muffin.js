@@ -24,7 +24,7 @@ $(window).ready(function() {
     autoScrolling: false,
     fitToSection: false,
     menu: '#menu',
-    anchors: ['homePage', 'whyPage', 'clientsPage', 'websitesPage', 'premiumPage', 'whoPage', 'contactPage'],
+    anchors: ['homePage', 'whyPage', 'websitesPage', 'premiumPage', 'whoPage', 'contactPage'],
     onLeave: function(index, nextIndex, direction) {
       var leavingSection = $(this);
 

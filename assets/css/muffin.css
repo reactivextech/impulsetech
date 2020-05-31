@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Istok+Web:700|Playfair+Display|Poppins:300,500&amp;subset=latin-ext');
 @charset "utf-8";
+:root {
+  --bg: #121E2D;
+  --bg-white: #DCDDDE;
+  --font: 'Nunito', sans-serif;
+  --font-text: 'Montserrat', sans-serif;
+  --logo-orange: #FF5800;
+  --logo-green: #00A69C;
+  --logo-white: #FFFFFF;
+}
+
+.sub-title {
+  height: 36px;
+  padding: 0 12px;
+  font-size: 14px;
+  line-height: 35px;
+  display: inline-block;
+  margin-bottom: 15px;
+  background: rgba(0, 207, 255, 0.1);
+  color: #00CFFF !important;
+}
 .fIstok {
   font-family: 'Istok Web', sans-serif;
   font-weight: 700;
@@ -345,7 +365,7 @@ a {
   z-index: 99999;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0);
-  background: #001125;
+  background: #121E2D;
   height: 100%;
   width: 190px;
 }
@@ -1055,6 +1075,9 @@ a {
 .websitesSection {
   position: relative;
   z-index: 1;
+}
+.websitesSection.proyects {
+  background: #121b27;
 }
 .websitesSection .photoBg {
   width: 100%;
@@ -2883,7 +2906,7 @@ a {
     width: auto !important;
   }
   .whoSection .columns .centerColumn .columnContainer {
-    padding: 0 20px;
+    padding: 0 10rem;
     font-size: 14px;
   }
   .whoSection .team .column .columnContainer {
@@ -2926,6 +2949,12 @@ a {
   }
   .contactSection .columns .column .icon img {
     height: 75px !important;
+  }
+  .column .icon img {
+    height: 75px !important;
+  }
+  .column {
+    text-align: center;
   }
   .contactSection .links {
     padding: 60px 0 40px 0;

@@ -2950,10 +2950,10 @@ a {
   .contactSection .columns .column .icon img {
     height: 75px !important;
   }
-  .column .icon img {
+  .column-contactcs .icon img {
     height: 75px !important;
   }
-  .column {
+  .column-contactcs {
     text-align: center;
   }
   .contactSection .links {
@@ -3584,7 +3584,7 @@ a {
     padding-left: 40px !important;
   }
   .whySection .leftSvg {
-    top: 120px !important;
+    top: 175px !important;
   }
   .whySection .leftSvg svg {
     width: 200px;
